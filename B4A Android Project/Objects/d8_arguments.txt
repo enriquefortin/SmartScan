@@ -1,0 +1,364 @@
+--release
+--output
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects
+--lib
+C:\Android\platforms\android-33\android.jar
+C:\Android\tools\..\extras\b4a_local\unpacked-b4ashared-63837499356000\dex_v1\b4ashared.zip
+c:\android\tools\..\extras\b4a_remote\androidx\core\core\1.9.0\unpacked-core-1.9.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\core\core-ktx\1.9.0\unpacked-core-ktx-1.9.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\annotation\annotation-experimental\1.3.0\unpacked-annotation-experimental-1.3.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-runtime\2.5.1\unpacked-lifecycle-runtime-2.5.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\versionedparcelable\versionedparcelable\1.1.1\unpacked-versionedparcelable-1.1.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-vision\20.1.3\unpacked-play-services-vision-20.1.3\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-base\18.1.0\unpacked-play-services-base-18.1.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\fragment\fragment\1.5.4\unpacked-fragment-1.5.4\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\activity\activity\1.6.1\unpacked-activity-1.6.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\activity\activity-ktx\1.6.1\unpacked-activity-ktx-1.6.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-runtime-ktx\2.5.1\unpacked-lifecycle-runtime-ktx-2.5.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-viewmodel-ktx\2.5.1\unpacked-lifecycle-viewmodel-ktx-2.5.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-viewmodel\2.5.1\unpacked-lifecycle-viewmodel-2.5.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-viewmodel-savedstate\2.5.1\unpacked-lifecycle-viewmodel-savedstate-2.5.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-livedata-core\2.5.1\unpacked-lifecycle-livedata-core-2.5.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\savedstate\savedstate\1.2.0\unpacked-savedstate-1.2.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\savedstate\savedstate-ktx\1.2.0\unpacked-savedstate-ktx-1.2.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\loader\loader\1.1.0\unpacked-loader-1.1.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\viewpager\viewpager\1.0.0\unpacked-viewpager-1.0.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\customview\customview\1.1.0\unpacked-customview-1.1.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-basement\18.1.0\unpacked-play-services-basement-18.1.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-tasks\18.0.2\unpacked-play-services-tasks-18.0.2\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-vision-common\19.1.3\unpacked-play-services-vision-common-19.1.3\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-clearcut\17.0.0\unpacked-play-services-clearcut-17.0.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-phenotype\17.0.0\unpacked-play-services-phenotype-17.0.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-flags\18.0.1\unpacked-play-services-flags-18.0.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\appcompat\appcompat\1.5.1\unpacked-appcompat-1.5.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\appcompat\appcompat-resources\1.5.1\unpacked-appcompat-resources-1.5.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\vectordrawable\vectordrawable\1.1.0\unpacked-vectordrawable-1.1.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\vectordrawable\vectordrawable-animated\1.1.0\unpacked-vectordrawable-animated-1.1.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\interpolator\interpolator\1.0.0\unpacked-interpolator-1.0.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\cursoradapter\cursoradapter\1.0.0\unpacked-cursoradapter-1.0.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\drawerlayout\drawerlayout\1.1.1\unpacked-drawerlayout-1.1.1\jars\classes.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-core-63837499358000\dex_v1\core.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-json-63837499358000\dex_v1\json.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-runtimepermissions.androidx-63837499358000\dex_v1\runtimepermissions.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-websocket-63723172178000\dex_v1\websocket.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-xui-63837499358000\dex_v1\xui.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-androidtextrecognition-63732854326000\dex_v1\androidtextrecognition.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-remotelogger-63837499358000\dex_v1\remotelogger.zip
+c:\android\tools\..\extras\b4a_remote\androidx\annotation\annotation\1.5.0\annotation-1.5.0.zip
+c:\android\tools\..\extras\b4a_remote\androidx\arch\core\core-common\2.1.0\core-common-2.1.0.zip
+c:\android\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-common\2.5.1\lifecycle-common-2.5.1.zip
+c:\android\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-common-java8\2.5.1\lifecycle-common-java8-2.5.1.zip
+c:\android\tools\..\extras\b4a_remote\androidx\collection\collection\1.2.0\collection-1.2.0.zip
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\ktx\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\ktx\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\ktx\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\ktx\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\ktx\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\ktx\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\ktx\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\ktx\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\ktx\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\ktx\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\ktx\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\ktx\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\ktx\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\ktx\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\activity\ktx\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\annotation\experimental\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\annotation\experimental\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\annotation\experimental\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\annotation\experimental\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\annotation\experimental\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\annotation\experimental\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\annotation\experimental\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\annotation\experimental\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\annotation\experimental\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\annotation\experimental\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\annotation\experimental\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\annotation\experimental\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\annotation\experimental\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\annotation\experimental\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\annotation\experimental\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\resources\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\resources\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\resources\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\resources\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\resources\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\resources\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\resources\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\resources\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\resources\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\resources\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\resources\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\resources\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\resources\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\resources\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\appcompat\resources\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\ktx\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\ktx\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\ktx\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\ktx\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\ktx\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\ktx\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\ktx\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\ktx\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\ktx\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\ktx\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\ktx\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\ktx\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\ktx\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\ktx\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\core\ktx\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\drawerlayout\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\drawerlayout\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\drawerlayout\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\drawerlayout\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\drawerlayout\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\drawerlayout\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\drawerlayout\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\drawerlayout\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\drawerlayout\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\drawerlayout\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\drawerlayout\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\drawerlayout\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\drawerlayout\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\drawerlayout\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\drawerlayout\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\fragment\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\fragment\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\fragment\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\fragment\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\fragment\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\fragment\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\fragment\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\fragment\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\fragment\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\fragment\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\fragment\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\fragment\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\fragment\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\fragment\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\fragment\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\ktx\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\ktx\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\ktx\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\ktx\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\ktx\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\ktx\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\ktx\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\ktx\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\ktx\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\ktx\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\ktx\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\ktx\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\ktx\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\ktx\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\ktx\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\livedata\core\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\livedata\core\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\livedata\core\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\livedata\core\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\livedata\core\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\livedata\core\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\livedata\core\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\livedata\core\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\livedata\core\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\livedata\core\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\livedata\core\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\livedata\core\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\livedata\core\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\livedata\core\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\livedata\core\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\runtime\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\runtime\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\runtime\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\runtime\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\runtime\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\runtime\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\runtime\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\runtime\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\runtime\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\runtime\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\runtime\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\runtime\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\runtime\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\runtime\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\runtime\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\ktx\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\ktx\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\ktx\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\ktx\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\ktx\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\ktx\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\ktx\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\ktx\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\ktx\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\ktx\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\ktx\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\ktx\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\ktx\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\ktx\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\androidx\savedstate\ktx\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\base\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\base\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\base\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\base\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\base\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\base\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\base\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\base\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\base\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\base\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\base\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\base\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\base\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\base\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\base\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\common\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\common\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\common\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\common\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\common\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\common\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\common\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\common\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\common\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\common\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\common\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\common\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\common\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\common\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\com\google\android\gms\common\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\main$1.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\main$B4AMenuItemsClickListener.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\main$HandleKeyDelayed.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\main$ResumableSub_Button1_Click.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\main$ResumeMessage.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\main$WaitForLayout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\main.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\R$anim.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\R$animator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\R$attr.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\R$bool.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\R$color.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\R$dimen.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\R$drawable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\R$id.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\R$integer.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\R$interpolator.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\R$layout.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\R$string.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\R$style.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\R$styleable.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\R.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\starter$1.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\starter$2.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\starter$starter_BR.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\starter.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\websockethandler.dex
+C:\Users\Macbook\Desktop\Tema de OCR\2da opcion text reconoc\b4aAndroidTextRecognition\Objects\dexed\jhs\atr\designerscripts\LS_layout.dex

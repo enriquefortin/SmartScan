@@ -1,0 +1,231 @@
+﻿Build1=Default,jhs.atr
+File1=Layout.bal
+FileGroup1=Default Group
+Group=Default Group
+Library1=core
+Library2=json
+Library3=runtimepermissions
+Library4=websocket
+Library5=xui
+Library6=androidtextrecognition
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="33"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~SetApplicationAttribute(android:theme, "@style/MyAppTheme")~\n~AddApplicationText(<meta-data~\n~            android:name="com.google.android.gms.version"~\n~            android:value="@integer/google_play_services_version" />~\n~        <meta-data~\n~            android:name="com.google.android.gms.vision.DEPENDENCIES"~\n~            android:value="ocr" />)	~\n~		~\n~AddPermission(android.permission.CAMERA) ' Required to be able to access the camera device.		~\n~AddPermission(android.permission.GET_TASKS)~\n~AddPermission("android.hardware.camera")~\n~AddPermission("android.permission.FLASHLIGHT")~\n~~\n~~\n~~\n~~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~
+Module1=Starter
+Module2=WebSocketHandler
+NumberOfFiles=1
+NumberOfLibraries=6
+NumberOfModules=2
+Version=12.8
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: Detektor SmartScan
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: unspecified
+	#CanInstallToExternalStorage: False
+#End Region
+#BridgeLogger: True
+#AdditionalRes: ..\resource
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: True
+#End Region
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+	Private xui As XUI
+	Dim rp As RuntimePermissions
+	'Dim ws As WebSocket
+'	Dim t As Timer
+	Private wsh As WebSocketHandler
+	'Private link As String = "ws://195.35.32.126:55555/AgregarFactura"
+	Private link As String = "ws://192.168.75.124:55555/AgregarFactura"
+
+End Sub
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+	Private atr1 As AnroidTextRecognition
+	Private Button2 As Button
+	Private Button3 As Button
+	Private Button4 As Button
+	Private btnConnect As Button
+	Private lblServerTime As Label
+	Private lblStatus As Label
+	Private btnSend As Button
+
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	If FirstTime Then
+		wsh.Initialize(Me, "wsh")
+	End If
+	Activity.LoadLayout("Layout")
+'	t.Initialize("t", 2000)             'initialize the timer
+	
+End Sub
+
+Sub wsh_ServerTime(Params As List)
+	'example of a server push message
+	lblServerTime.Text = "Server Time: " & Params.Get(0)
+End Sub
+
+Sub wsh_Connected
+	UpdateStatus
+End Sub
+
+Sub wsh_Closed (Reason As String)
+	UpdateStatus
+	ToastMessageShow(Reason, True)
+End Sub
+
+Sub Activity_Resume
+	UpdateStatus
+End Sub
+
+Sub UpdateStatus
+	If wsh.ws.Connected Then
+		lblStatus.Text = "Status: Connected"
+		Button4.Enabled=True
+	Else
+		lblStatus.Text = "Status: Disconnected"
+	End If
+	btnConnect.Enabled = Not(wsh.ws.Connected)
+	btnSend.Enabled = wsh.ws.Connected
+End Sub
+
+
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+'	t.Enabled = False  'stop the timer
+
+End Sub
+
+Sub Button1_Click
+	Dim Result As Boolean = True                           'check for camera permission                                                                  
+	If Not(rp.Check(rp.PERMISSION_CAMERA)) Then                                                        
+		rp.CheckAndRequest(rp.PERMISSION_CAMERA)                                                       
+		Wait For Activity_PermissionResult (Permission As String, Result As Boolean)                   
+	End If                                                                                             
+	If Result Then                                                                                     
+		atr1.startScanning                                 'if permission granted then start the scan
+'		t.Enabled = True                                   'enable the timer only once the scanner has been started
+	End If	
+End Sub
+
+Sub atr1_text_scanned_blocks(Blocks As Object)
+	
+	Dim scannedBlocks As List = Blocks
+	For i = 0 To scannedBlocks.Size - 1
+		Log("scannedBlocks(" & i & ") = " & scannedBlocks.Get(i))
+	Next
+	Log(" ")
+	
+End Sub
+
+Sub atr1_text_scanned_lines(Lines As Object)
+	Dim scannedLines As List = Lines
+	For i = 0 To scannedLines.Size - 1
+		Log("scannedLines(" & i & ") = " & scannedLines.Get(i))
+	Next
+	Log(" ")	
+End Sub
+
+Sub atr1_text_scanned_words(Words As Object)
+	Dim scannedWords As List = Words
+	For i = 0 To scannedWords.Size - 1
+		Log("scannedWords(" & i & ") = " & scannedWords.Get(i))
+	Next
+	Log(" ")
+	
+End Sub
+
+Sub t_tick
+	'timer is fired every 2 seconds
+	
+	Dim blk As List = atr1.TextBlocks             'get the blocks every 2 seconds - sufficient time to process inbetween every timer tick
+'	Dim lns As List = atr1.TextLines              'you can use this too
+'	Dim wrds As List = atr1.TextWords             'you can use this too
+	
+	'in this case only using blocks and looking for "3 0282 0780" in any of the blocks
+	If blk.Size > 0 Then
+		For i = 0 To blk.Size - 1
+			Log("block(" & i & ") = " & blk.Get(i))
+			ToastMessageShow("block(" & i & ") = " & blk.Get(i),False)
+			If blk.get(i) = "3 0282 0780" Then               'check if the block contains "3 0282 0780"
+				Log("GOTCHA")
+'				t.Enabled = False                            'if it does contain "3 0282 0780" -> stop the timer
+				atr1.stopScanning                            'stop the scanner
+			End If
+			
+		Next
+	End If 
+End Sub
+
+
+
+Sub Button2_Click
+	
+	atr1.setFlashOn
+	
+End Sub
+
+Sub Button3_Click
+	
+	atr1.setFlashOff
+	
+End Sub
+
+Sub Button4_Click
+		
+		Dim blk As List
+		blk.Initialize
+		blk = atr1.TextBlocks              'for blocks
+		
+		Dim lns As List 
+		lns.Initialize 
+		lns = atr1.TextLines               'for Lines
+		
+		Dim wrd As List 
+		wrd.Initialize
+		wrd = atr1.TextWords               'for Words
+		
+		If blk.Size > 0 Then
+			For i = 0 To blk.Size - 1
+				Log("block(" & i & ") = " & blk.Get(i))			
+			Dim data As Map
+			data.Initialize
+			data.Put("message", blk.Get(i))
+			Log(data)
+			wsh.SendEventToServer("Device_Message", data)
+			
+			
+				If blk.get(i) = "3 0282 0780" Then               'check if the block contains "3 0282 0780"
+					Log("GOTCHA")
+					atr1.stopScanning                            'stop the scanner
+					
+				Dim data As Map
+				data.Initialize
+				data.Put("message", "block(" & i & ") = " & blk.Get(i))
+				Log(data)
+				wsh.SendEventToServer("Device_Message", data)
+					
+				End If				
+			Next
+			
+	
+		End If 	
+		
+	
+End Sub
+
+
+
+Sub btnConnect_Click
+	wsh.Connect(link)
+	lblStatus.Text = "Status: Connecting..."
+End Sub
+

@@ -1,0 +1,60 @@
+﻿AppType=StandardJava
+Build1=Default,b4j.smartscan
+File1=factura.jpg
+FileGroup1=Default Group
+Group=Default Group
+Library1=apachestringutilsb4j
+Library2=javaobject
+Library3=jcore
+Library4=jfileuploadsupport
+Library5=jokhttputils2
+Library6=jrandomaccessfile
+Library7=jserver
+Library8=json
+Library9=jshell
+Module1=AgregarFactura
+Module2=B4A
+Module3=hUploadServer
+NumberOfFiles=1
+NumberOfLibraries=9
+NumberOfModules=3
+Version=10
+@EndOfDesignText@
+#Region Project Attributes 
+	#CommandLineArgs:
+	#MergeLibraries: True 
+#End Region
+
+#AdditionalJar: commons-fileupload2-core-2.0.0-M1
+#AdditionalJar: commons-fileupload2-jakarta-2.0.0-M1
+#AdditionalJar: commons-io-2.13.0
+
+Sub Process_Globals
+	Private srvr As Server
+	Public msj As Map
+	Public reload As Int
+	Public NombreArchivo As String
+	Public porcentaje As String=""
+	Public subido As Boolean =False
+End Sub
+
+
+
+Sub AppStart (Args() As String)
+	srvr.Initialize("srvr")
+	srvr.Port = 55555
+	srvr.StaticFilesFolder = File.Combine(File.DirApp, "www")
+		
+	srvr.AddWebSocket("/AgregarFactura", "AgregarFactura")
+	srvr.AddWebSocket("/ws", "B4A")
+	srvr.AddHandler("/upload/v2/*", "hUploadServer", False)
+	srvr.Start
+	StartMessageLoop
+	'open browser and navigate to: http://127.0.0.1:51042/
+	msj.Initialize
+	
+	
+
+End Sub
+
+
