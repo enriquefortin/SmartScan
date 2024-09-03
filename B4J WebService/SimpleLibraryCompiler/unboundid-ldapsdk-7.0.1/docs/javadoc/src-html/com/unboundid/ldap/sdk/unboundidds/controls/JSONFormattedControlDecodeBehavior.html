@@ -1,0 +1,473 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<title>Source code</title>
+<link rel="stylesheet" type="text/css" href="../../../../../../../stylesheet.css" title="Style">
+</head>
+<body>
+<div class="sourceContainer">
+<pre><span class="sourceLineNo">001</span>/*<a name="line.1"></a>
+<span class="sourceLineNo">002</span> * Copyright 2022-2024 Ping Identity Corporation<a name="line.2"></a>
+<span class="sourceLineNo">003</span> * All Rights Reserved.<a name="line.3"></a>
+<span class="sourceLineNo">004</span> */<a name="line.4"></a>
+<span class="sourceLineNo">005</span>/*<a name="line.5"></a>
+<span class="sourceLineNo">006</span> * Copyright 2022-2024 Ping Identity Corporation<a name="line.6"></a>
+<span class="sourceLineNo">007</span> *<a name="line.7"></a>
+<span class="sourceLineNo">008</span> * Licensed under the Apache License, Version 2.0 (the "License");<a name="line.8"></a>
+<span class="sourceLineNo">009</span> * you may not use this file except in compliance with the License.<a name="line.9"></a>
+<span class="sourceLineNo">010</span> * You may obtain a copy of the License at<a name="line.10"></a>
+<span class="sourceLineNo">011</span> *<a name="line.11"></a>
+<span class="sourceLineNo">012</span> *    http://www.apache.org/licenses/LICENSE-2.0<a name="line.12"></a>
+<span class="sourceLineNo">013</span> *<a name="line.13"></a>
+<span class="sourceLineNo">014</span> * Unless required by applicable law or agreed to in writing, software<a name="line.14"></a>
+<span class="sourceLineNo">015</span> * distributed under the License is distributed on an "AS IS" BASIS,<a name="line.15"></a>
+<span class="sourceLineNo">016</span> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<a name="line.16"></a>
+<span class="sourceLineNo">017</span> * See the License for the specific language governing permissions and<a name="line.17"></a>
+<span class="sourceLineNo">018</span> * limitations under the License.<a name="line.18"></a>
+<span class="sourceLineNo">019</span> */<a name="line.19"></a>
+<span class="sourceLineNo">020</span>/*<a name="line.20"></a>
+<span class="sourceLineNo">021</span> * Copyright (C) 2022-2024 Ping Identity Corporation<a name="line.21"></a>
+<span class="sourceLineNo">022</span> *<a name="line.22"></a>
+<span class="sourceLineNo">023</span> * This program is free software; you can redistribute it and/or modify<a name="line.23"></a>
+<span class="sourceLineNo">024</span> * it under the terms of the GNU General Public License (GPLv2 only)<a name="line.24"></a>
+<span class="sourceLineNo">025</span> * or the terms of the GNU Lesser General Public License (LGPLv2.1 only)<a name="line.25"></a>
+<span class="sourceLineNo">026</span> * as published by the Free Software Foundation.<a name="line.26"></a>
+<span class="sourceLineNo">027</span> *<a name="line.27"></a>
+<span class="sourceLineNo">028</span> * This program is distributed in the hope that it will be useful,<a name="line.28"></a>
+<span class="sourceLineNo">029</span> * but WITHOUT ANY WARRANTY; without even the implied warranty of<a name="line.29"></a>
+<span class="sourceLineNo">030</span> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the<a name="line.30"></a>
+<span class="sourceLineNo">031</span> * GNU General Public License for more details.<a name="line.31"></a>
+<span class="sourceLineNo">032</span> *<a name="line.32"></a>
+<span class="sourceLineNo">033</span> * You should have received a copy of the GNU General Public License<a name="line.33"></a>
+<span class="sourceLineNo">034</span> * along with this program; if not, see &lt;http://www.gnu.org/licenses&gt;.<a name="line.34"></a>
+<span class="sourceLineNo">035</span> */<a name="line.35"></a>
+<span class="sourceLineNo">036</span>package com.unboundid.ldap.sdk.unboundidds.controls;<a name="line.36"></a>
+<span class="sourceLineNo">037</span><a name="line.37"></a>
+<span class="sourceLineNo">038</span><a name="line.38"></a>
+<span class="sourceLineNo">039</span><a name="line.39"></a>
+<span class="sourceLineNo">040</span>import java.io.Serializable;<a name="line.40"></a>
+<span class="sourceLineNo">041</span><a name="line.41"></a>
+<span class="sourceLineNo">042</span>import com.unboundid.util.Mutable;<a name="line.42"></a>
+<span class="sourceLineNo">043</span>import com.unboundid.util.NotNull;<a name="line.43"></a>
+<span class="sourceLineNo">044</span>import com.unboundid.util.ThreadSafety;<a name="line.44"></a>
+<span class="sourceLineNo">045</span>import com.unboundid.util.ThreadSafetyLevel;<a name="line.45"></a>
+<span class="sourceLineNo">046</span><a name="line.46"></a>
+<span class="sourceLineNo">047</span><a name="line.47"></a>
+<span class="sourceLineNo">048</span><a name="line.48"></a>
+<span class="sourceLineNo">049</span>/**<a name="line.49"></a>
+<span class="sourceLineNo">050</span> * This enum defines options for the behaviors that should be used when trying<a name="line.50"></a>
+<span class="sourceLineNo">051</span> * to decode JSON objects embedded in a {@link JSONFormattedRequestControl} or<a name="line.51"></a>
+<span class="sourceLineNo">052</span> * {@link JSONFormattedResponseControl} as<a name="line.52"></a>
+<span class="sourceLineNo">053</span> * {@link com.unboundid.ldap.sdk.Control} objects.<a name="line.53"></a>
+<span class="sourceLineNo">054</span> * &lt;BR&gt;<a name="line.54"></a>
+<span class="sourceLineNo">055</span> * &lt;BLOCKQUOTE&gt;<a name="line.55"></a>
+<span class="sourceLineNo">056</span> *   &lt;B&gt;NOTE:&lt;/B&gt;  This class, and other classes within the<a name="line.56"></a>
+<span class="sourceLineNo">057</span> *   {@code com.unboundid.ldap.sdk.unboundidds} package structure, are only<a name="line.57"></a>
+<span class="sourceLineNo">058</span> *   supported for use against Ping Identity, UnboundID, and<a name="line.58"></a>
+<span class="sourceLineNo">059</span> *   Nokia/Alcatel-Lucent 8661 server products.  These classes provide support<a name="line.59"></a>
+<span class="sourceLineNo">060</span> *   for proprietary functionality or for external specifications that are not<a name="line.60"></a>
+<span class="sourceLineNo">061</span> *   considered stable or mature enough to be guaranteed to work in an<a name="line.61"></a>
+<span class="sourceLineNo">062</span> *   interoperable way with other types of LDAP servers.<a name="line.62"></a>
+<span class="sourceLineNo">063</span> * &lt;/BLOCKQUOTE&gt;<a name="line.63"></a>
+<span class="sourceLineNo">064</span> */<a name="line.64"></a>
+<span class="sourceLineNo">065</span>@Mutable()<a name="line.65"></a>
+<span class="sourceLineNo">066</span>@ThreadSafety(level=ThreadSafetyLevel.NOT_THREADSAFE)<a name="line.66"></a>
+<span class="sourceLineNo">067</span>public final class JSONFormattedControlDecodeBehavior<a name="line.67"></a>
+<span class="sourceLineNo">068</span>       implements Serializable<a name="line.68"></a>
+<span class="sourceLineNo">069</span>{<a name="line.69"></a>
+<span class="sourceLineNo">070</span>  /**<a name="line.70"></a>
+<span class="sourceLineNo">071</span>   * The serial verison UID for this serizlizable class.<a name="line.71"></a>
+<span class="sourceLineNo">072</span>   */<a name="line.72"></a>
+<span class="sourceLineNo">073</span>  private static final long serialVersionUID = -1035196310465374381L;<a name="line.73"></a>
+<span class="sourceLineNo">074</span><a name="line.74"></a>
+<span class="sourceLineNo">075</span><a name="line.75"></a>
+<span class="sourceLineNo">076</span><a name="line.76"></a>
+<span class="sourceLineNo">077</span>  // Indicates whether to allow embedded JSON-formatted request or response<a name="line.77"></a>
+<span class="sourceLineNo">078</span>  // controls.<a name="line.78"></a>
+<span class="sourceLineNo">079</span>  private boolean allowEmbeddedJSONFormattedControl;<a name="line.79"></a>
+<span class="sourceLineNo">080</span><a name="line.80"></a>
+<span class="sourceLineNo">081</span>  // Indicates whether to use strict mode when decoding controls.<a name="line.81"></a>
+<span class="sourceLineNo">082</span>  private boolean strict;<a name="line.82"></a>
+<span class="sourceLineNo">083</span><a name="line.83"></a>
+<span class="sourceLineNo">084</span>  // Indicates whether to throw an exception when encountering an object that<a name="line.84"></a>
+<span class="sourceLineNo">085</span>  // has the proper basic formatting for a JSON control with a criticality of<a name="line.85"></a>
+<span class="sourceLineNo">086</span>  // true, but that cannot actually be decoded as a valid control.<a name="line.86"></a>
+<span class="sourceLineNo">087</span>  private boolean throwOnInvalidCriticalControl;<a name="line.87"></a>
+<span class="sourceLineNo">088</span><a name="line.88"></a>
+<span class="sourceLineNo">089</span>  // Indicates whether to throw an exception when encountering an object that<a name="line.89"></a>
+<span class="sourceLineNo">090</span>  // has the proper basic formatting for a JSON control with a criticality of<a name="line.90"></a>
+<span class="sourceLineNo">091</span>  // false, but that cannot actually be decoded as a valid control.<a name="line.91"></a>
+<span class="sourceLineNo">092</span>  private boolean throwOnInvalidNonCriticalControl;<a name="line.92"></a>
+<span class="sourceLineNo">093</span><a name="line.93"></a>
+<span class="sourceLineNo">094</span>  // Indicates whether to throw an exception when encountering an object that<a name="line.94"></a>
+<span class="sourceLineNo">095</span>  // does not meet the basic requirements for a JSON-formatted control.<a name="line.95"></a>
+<span class="sourceLineNo">096</span>  private boolean throwOnUnparsableObject;<a name="line.96"></a>
+<span class="sourceLineNo">097</span><a name="line.97"></a>
+<span class="sourceLineNo">098</span><a name="line.98"></a>
+<span class="sourceLineNo">099</span><a name="line.99"></a>
+<span class="sourceLineNo">100</span>  /**<a name="line.100"></a>
+<span class="sourceLineNo">101</span>   * Creates a new instance of this behavior with the default configuration.<a name="line.101"></a>
+<span class="sourceLineNo">102</span>   * The default configuration is as follows:<a name="line.102"></a>
+<span class="sourceLineNo">103</span>   * &lt;UL&gt;<a name="line.103"></a>
+<span class="sourceLineNo">104</span>   *   &lt;LI&gt;{@code throwOnUnparsableObject} is set to {@code true}&lt;/LI&gt;<a name="line.104"></a>
+<span class="sourceLineNo">105</span>   *   &lt;LI&gt;{@code throwOnInvalidCriticalControl} is set to {@code true}&lt;/LI&gt;<a name="line.105"></a>
+<span class="sourceLineNo">106</span>   *   &lt;LI&gt;{@code throwOnInvalidNonCriticalControl} is set to {@code true}&lt;/LI&gt;<a name="line.106"></a>
+<span class="sourceLineNo">107</span>   *   &lt;LI&gt;{@code allowEmbeddedJSONFormattedControl} is set to<a name="line.107"></a>
+<span class="sourceLineNo">108</span>   *       {@code false}&lt;/LI&gt;<a name="line.108"></a>
+<span class="sourceLineNo">109</span>   *   &lt;LI&gt;{@code strict} is set to {@code false}&lt;/LI&gt;<a name="line.109"></a>
+<span class="sourceLineNo">110</span>   * &lt;/UL&gt;<a name="line.110"></a>
+<span class="sourceLineNo">111</span>   */<a name="line.111"></a>
+<span class="sourceLineNo">112</span>  public JSONFormattedControlDecodeBehavior()<a name="line.112"></a>
+<span class="sourceLineNo">113</span>  {<a name="line.113"></a>
+<span class="sourceLineNo">114</span>    throwOnUnparsableObject = true;<a name="line.114"></a>
+<span class="sourceLineNo">115</span>    throwOnInvalidCriticalControl = true;<a name="line.115"></a>
+<span class="sourceLineNo">116</span>    throwOnInvalidNonCriticalControl = true;<a name="line.116"></a>
+<span class="sourceLineNo">117</span>    allowEmbeddedJSONFormattedControl = false;<a name="line.117"></a>
+<span class="sourceLineNo">118</span>    strict = false;<a name="line.118"></a>
+<span class="sourceLineNo">119</span>  }<a name="line.119"></a>
+<span class="sourceLineNo">120</span><a name="line.120"></a>
+<span class="sourceLineNo">121</span><a name="line.121"></a>
+<span class="sourceLineNo">122</span><a name="line.122"></a>
+<span class="sourceLineNo">123</span>  /**<a name="line.123"></a>
+<span class="sourceLineNo">124</span>   * Indicates whether to throw an exception if the JSON-formatted request or<a name="line.124"></a>
+<span class="sourceLineNo">125</span>   * response control includes a JSON object that does not meet the basic<a name="line.125"></a>
+<span class="sourceLineNo">126</span>   * requirements for representing a valid JSON-formatted control, including<a name="line.126"></a>
+<span class="sourceLineNo">127</span>   * controls without the required {@code oid} and {@code criticality} fields,<a name="line.127"></a>
+<span class="sourceLineNo">128</span>   * and controls with both {@code value-base64} and {@code value-json} fields.<a name="line.128"></a>
+<span class="sourceLineNo">129</span>   * If strict mode is enabled, then this also includes unrecognized top-level<a name="line.129"></a>
+<span class="sourceLineNo">130</span>   * fields.<a name="line.130"></a>
+<span class="sourceLineNo">131</span>   *<a name="line.131"></a>
+<span class="sourceLineNo">132</span>   * @return  {@code true} if an exception should be thrown if a JSON-formatted<a name="line.132"></a>
+<span class="sourceLineNo">133</span>   *          request or response control includes a JSON object that does not<a name="line.133"></a>
+<span class="sourceLineNo">134</span>   *          meet the basic requirements for representing a valid<a name="line.134"></a>
+<span class="sourceLineNo">135</span>   *          JSON-formatted control, or {@code false} if any such JSON objects<a name="line.135"></a>
+<span class="sourceLineNo">136</span>   *          should simply be ignored.<a name="line.136"></a>
+<span class="sourceLineNo">137</span>   */<a name="line.137"></a>
+<span class="sourceLineNo">138</span>  public boolean throwOnUnparsableObject()<a name="line.138"></a>
+<span class="sourceLineNo">139</span>  {<a name="line.139"></a>
+<span class="sourceLineNo">140</span>    return throwOnUnparsableObject;<a name="line.140"></a>
+<span class="sourceLineNo">141</span>  }<a name="line.141"></a>
+<span class="sourceLineNo">142</span><a name="line.142"></a>
+<span class="sourceLineNo">143</span><a name="line.143"></a>
+<span class="sourceLineNo">144</span><a name="line.144"></a>
+<span class="sourceLineNo">145</span>  /**<a name="line.145"></a>
+<span class="sourceLineNo">146</span>   * Specifies whether to throw an exception if the JSON-formatted request or<a name="line.146"></a>
+<span class="sourceLineNo">147</span>   * response control includes a JSON object that does not meet the basic<a name="line.147"></a>
+<span class="sourceLineNo">148</span>   * requirements for representing a valid JSON-formatted control, including<a name="line.148"></a>
+<span class="sourceLineNo">149</span>   * controls without the required {@code oid} and {@code criticality} fields,<a name="line.149"></a>
+<span class="sourceLineNo">150</span>   * and controls with both {@code value-base64} and {@code value-json} fields.<a name="line.150"></a>
+<span class="sourceLineNo">151</span>   * If strict mode is enabled, then this also includes unrecognized top-level<a name="line.151"></a>
+<span class="sourceLineNo">152</span>   * fields.<a name="line.152"></a>
+<span class="sourceLineNo">153</span>   *<a name="line.153"></a>
+<span class="sourceLineNo">154</span>   * @param  throwOnUnparsableObject  Indicates whether to throw an exception<a name="line.154"></a>
+<span class="sourceLineNo">155</span>   *                                  for any JSON object that does not meet<a name="line.155"></a>
+<span class="sourceLineNo">156</span>   *                                  the basic requirements for a<a name="line.156"></a>
+<span class="sourceLineNo">157</span>   *                                  JSON-formatted control.  If this is<a name="line.157"></a>
+<span class="sourceLineNo">158</span>   *                                  {@code true}, then an exception will be<a name="line.158"></a>
+<span class="sourceLineNo">159</span>   *                                  thrown if any such JSON object is<a name="line.159"></a>
+<span class="sourceLineNo">160</span>   *                                  encountered.  If this is {@code false},<a name="line.160"></a>
+<span class="sourceLineNo">161</span>   *                                  any such JSON objects will be ignored.<a name="line.161"></a>
+<span class="sourceLineNo">162</span>   */<a name="line.162"></a>
+<span class="sourceLineNo">163</span>  public void setThrowOnUnparsableObject(final boolean throwOnUnparsableObject)<a name="line.163"></a>
+<span class="sourceLineNo">164</span>  {<a name="line.164"></a>
+<span class="sourceLineNo">165</span>    this.throwOnUnparsableObject = throwOnUnparsableObject;<a name="line.165"></a>
+<span class="sourceLineNo">166</span>  }<a name="line.166"></a>
+<span class="sourceLineNo">167</span><a name="line.167"></a>
+<span class="sourceLineNo">168</span><a name="line.168"></a>
+<span class="sourceLineNo">169</span><a name="line.169"></a>
+<span class="sourceLineNo">170</span>  /**<a name="line.170"></a>
+<span class="sourceLineNo">171</span>   * Indicates whether to throw an exception if the JSON-formatted request or<a name="line.171"></a>
+<span class="sourceLineNo">172</span>   * response control includes a JSON object that at least meets the basic<a name="line.172"></a>
+<span class="sourceLineNo">173</span>   * requirements for a JSON-formatted control with a criticality of<a name="line.173"></a>
+<span class="sourceLineNo">174</span>   * {@code true}, but that cannot be parsed as a valid {@code Control} instance<a name="line.174"></a>
+<span class="sourceLineNo">175</span>   * for some reason.  This may include a control with an OID for which<a name="line.175"></a>
+<span class="sourceLineNo">176</span>   * specific decoding support has been implemented but a problem is encountered<a name="line.176"></a>
+<span class="sourceLineNo">177</span>   * while trying to decode the JSON object as a control of that type, or a<a name="line.177"></a>
+<span class="sourceLineNo">178</span>   * control with an OID for which no specific decoding has been implemented but<a name="line.178"></a>
+<span class="sourceLineNo">179</span>   * includes a value specified using the {@code value-json} format.<a name="line.179"></a>
+<span class="sourceLineNo">180</span>   *<a name="line.180"></a>
+<span class="sourceLineNo">181</span>   * @return  {@code true} if an exception should be thrown if a critical<a name="line.181"></a>
+<span class="sourceLineNo">182</span>   *          control cannot be decoded as a valid control instance, or<a name="line.182"></a>
+<span class="sourceLineNo">183</span>   *          {@code false} if any such controls should be ignored.<a name="line.183"></a>
+<span class="sourceLineNo">184</span>   */<a name="line.184"></a>
+<span class="sourceLineNo">185</span>  public boolean throwOnInvalidCriticalControl()<a name="line.185"></a>
+<span class="sourceLineNo">186</span>  {<a name="line.186"></a>
+<span class="sourceLineNo">187</span>    return throwOnInvalidCriticalControl;<a name="line.187"></a>
+<span class="sourceLineNo">188</span>  }<a name="line.188"></a>
+<span class="sourceLineNo">189</span><a name="line.189"></a>
+<span class="sourceLineNo">190</span><a name="line.190"></a>
+<span class="sourceLineNo">191</span><a name="line.191"></a>
+<span class="sourceLineNo">192</span>  /**<a name="line.192"></a>
+<span class="sourceLineNo">193</span>   * Specifies whether to throw an exception if the JSON-formatted request or<a name="line.193"></a>
+<span class="sourceLineNo">194</span>   * response control includes a JSON object that at least meets the basic<a name="line.194"></a>
+<span class="sourceLineNo">195</span>   * requirements for a JSON-formatted control with a criticality of<a name="line.195"></a>
+<span class="sourceLineNo">196</span>   * {@code true}, but that cannot be parsed as a valid {@code Control} instance<a name="line.196"></a>
+<span class="sourceLineNo">197</span>   * for some reason.  This may include a control with an OID for which<a name="line.197"></a>
+<span class="sourceLineNo">198</span>   * specific decoding support has been implemented but a problem is encountered<a name="line.198"></a>
+<span class="sourceLineNo">199</span>   * while trying to decode the JSON object as a control of that type, or a<a name="line.199"></a>
+<span class="sourceLineNo">200</span>   * control with an OID for which no specific decoding has been implemented but<a name="line.200"></a>
+<span class="sourceLineNo">201</span>   * includes a value specified using the {@code value-json} format.<a name="line.201"></a>
+<span class="sourceLineNo">202</span>   *<a name="line.202"></a>
+<span class="sourceLineNo">203</span>   * @param  throwOnInvalidCriticalControl  Indicates whether to throw an<a name="line.203"></a>
+<span class="sourceLineNo">204</span>   *                                        exception for any well-formed JSON<a name="line.204"></a>
+<span class="sourceLineNo">205</span>   *                                        object with a criticality of<a name="line.205"></a>
+<span class="sourceLineNo">206</span>   *                                        {@code true} that cannot be parsed<a name="line.206"></a>
+<span class="sourceLineNo">207</span>   *                                        as a {@code Control}.  If this is<a name="line.207"></a>
+<span class="sourceLineNo">208</span>   *                                        {@code true}, then an exception will<a name="line.208"></a>
+<span class="sourceLineNo">209</span>   *                                        be thrown if any such object is<a name="line.209"></a>
+<span class="sourceLineNo">210</span>   *                                        encountered.  If this is<a name="line.210"></a>
+<span class="sourceLineNo">211</span>   *                                        {@code false}, then any such JSON<a name="line.211"></a>
+<span class="sourceLineNo">212</span>   *                                        objects will be ignored.<a name="line.212"></a>
+<span class="sourceLineNo">213</span>   */<a name="line.213"></a>
+<span class="sourceLineNo">214</span>  public void setThrowOnInvalidCriticalControl(<a name="line.214"></a>
+<span class="sourceLineNo">215</span>                   final boolean throwOnInvalidCriticalControl)<a name="line.215"></a>
+<span class="sourceLineNo">216</span>  {<a name="line.216"></a>
+<span class="sourceLineNo">217</span>    this.throwOnInvalidCriticalControl = throwOnInvalidCriticalControl;<a name="line.217"></a>
+<span class="sourceLineNo">218</span>  }<a name="line.218"></a>
+<span class="sourceLineNo">219</span><a name="line.219"></a>
+<span class="sourceLineNo">220</span><a name="line.220"></a>
+<span class="sourceLineNo">221</span><a name="line.221"></a>
+<span class="sourceLineNo">222</span>  /**<a name="line.222"></a>
+<span class="sourceLineNo">223</span>   * Indicates whether to throw an exception if the JSON-formatted request or<a name="line.223"></a>
+<span class="sourceLineNo">224</span>   * response control includes a JSON object that at least meets the basic<a name="line.224"></a>
+<span class="sourceLineNo">225</span>   * requirements for a JSON-formatted control with a criticality of<a name="line.225"></a>
+<span class="sourceLineNo">226</span>   * {@code false}, but that cannot be parsed as a valid {@code Control}<a name="line.226"></a>
+<span class="sourceLineNo">227</span>   * instance for some reason.  This may include a control with an OID for which<a name="line.227"></a>
+<span class="sourceLineNo">228</span>   * specific decoding support has been implemented but a problem is encountered<a name="line.228"></a>
+<span class="sourceLineNo">229</span>   * while trying to decode the JSON object as a control of that type, or a<a name="line.229"></a>
+<span class="sourceLineNo">230</span>   * control with an OID for which no specific decoding has been implemented but<a name="line.230"></a>
+<span class="sourceLineNo">231</span>   * includes a value specified using the {@code value-json} format.<a name="line.231"></a>
+<span class="sourceLineNo">232</span>   *<a name="line.232"></a>
+<span class="sourceLineNo">233</span>   * @return  {@code true} if an exception should be thrown if a non-critical<a name="line.233"></a>
+<span class="sourceLineNo">234</span>   *          control cannot be decoded as a valid control instance, or<a name="line.234"></a>
+<span class="sourceLineNo">235</span>   *          {@code false} if any such controls should be ignored.<a name="line.235"></a>
+<span class="sourceLineNo">236</span>   */<a name="line.236"></a>
+<span class="sourceLineNo">237</span>  public boolean throwOnInvalidNonCriticalControl()<a name="line.237"></a>
+<span class="sourceLineNo">238</span>  {<a name="line.238"></a>
+<span class="sourceLineNo">239</span>    return throwOnInvalidNonCriticalControl;<a name="line.239"></a>
+<span class="sourceLineNo">240</span>  }<a name="line.240"></a>
+<span class="sourceLineNo">241</span><a name="line.241"></a>
+<span class="sourceLineNo">242</span><a name="line.242"></a>
+<span class="sourceLineNo">243</span><a name="line.243"></a>
+<span class="sourceLineNo">244</span>  /**<a name="line.244"></a>
+<span class="sourceLineNo">245</span>   * Specifies whether to throw an exception if the JSON-formatted request or<a name="line.245"></a>
+<span class="sourceLineNo">246</span>   * response control includes a JSON object that at least meets the basic<a name="line.246"></a>
+<span class="sourceLineNo">247</span>   * requirements for a JSON-formatted control with a criticality of<a name="line.247"></a>
+<span class="sourceLineNo">248</span>   * {@code false}, but that cannot be parsed as a valid {@code Control}<a name="line.248"></a>
+<span class="sourceLineNo">249</span>   * instance for some reason.  This may include a control with an OID for which<a name="line.249"></a>
+<span class="sourceLineNo">250</span>   * specific decoding support has been implemented but a problem is encountered<a name="line.250"></a>
+<span class="sourceLineNo">251</span>   * while trying to decode the JSON object as a control of that type, or a<a name="line.251"></a>
+<span class="sourceLineNo">252</span>   * control with an OID for which no specific decoding has been implemented but<a name="line.252"></a>
+<span class="sourceLineNo">253</span>   * includes a value specified using the {@code value-json} format.<a name="line.253"></a>
+<span class="sourceLineNo">254</span>   *<a name="line.254"></a>
+<span class="sourceLineNo">255</span>   * @param  throwOnInvalidNonCriticalControl  Indicates whether to throw an<a name="line.255"></a>
+<span class="sourceLineNo">256</span>   *                                           exception for any well-formed<a name="line.256"></a>
+<span class="sourceLineNo">257</span>   *                                           JSON object with a criticality of<a name="line.257"></a>
+<span class="sourceLineNo">258</span>   *                                           {@code false} that cannot be<a name="line.258"></a>
+<span class="sourceLineNo">259</span>   *                                           parsed as a {@code Control}.  If<a name="line.259"></a>
+<span class="sourceLineNo">260</span>   *                                           this is {@code true}, then an<a name="line.260"></a>
+<span class="sourceLineNo">261</span>   *                                           exception will be thrown if any<a name="line.261"></a>
+<span class="sourceLineNo">262</span>   *                                           such object is encountered.  If<a name="line.262"></a>
+<span class="sourceLineNo">263</span>   *                                           this is {@code false}, then any<a name="line.263"></a>
+<span class="sourceLineNo">264</span>   *                                           such JSON objects will be<a name="line.264"></a>
+<span class="sourceLineNo">265</span>   *                                           ignored.<a name="line.265"></a>
+<span class="sourceLineNo">266</span>   */<a name="line.266"></a>
+<span class="sourceLineNo">267</span>  public void setThrowOnInvalidNonCriticalControl(<a name="line.267"></a>
+<span class="sourceLineNo">268</span>                   final boolean throwOnInvalidNonCriticalControl)<a name="line.268"></a>
+<span class="sourceLineNo">269</span>  {<a name="line.269"></a>
+<span class="sourceLineNo">270</span>    this.throwOnInvalidNonCriticalControl = throwOnInvalidNonCriticalControl;<a name="line.270"></a>
+<span class="sourceLineNo">271</span>  }<a name="line.271"></a>
+<span class="sourceLineNo">272</span><a name="line.272"></a>
+<span class="sourceLineNo">273</span><a name="line.273"></a>
+<span class="sourceLineNo">274</span><a name="line.274"></a>
+<span class="sourceLineNo">275</span>  /**<a name="line.275"></a>
+<span class="sourceLineNo">276</span>   * Indicates whether to allow a JSON-formatted request or response control to<a name="line.276"></a>
+<span class="sourceLineNo">277</span>   * include another JSON-formatted request or response control in the set of<a name="line.277"></a>
+<span class="sourceLineNo">278</span>   * embedded controls.  If embedded JSON-formatted controls are not allowed,<a name="line.278"></a>
+<span class="sourceLineNo">279</span>   * then the attempt to decode will throw an exception if the control is<a name="line.279"></a>
+<span class="sourceLineNo">280</span>   * critical, or it will be ignored with a non-fatal error message if the<a name="line.280"></a>
+<span class="sourceLineNo">281</span>   * control is non-critical.<a name="line.281"></a>
+<span class="sourceLineNo">282</span>   *<a name="line.282"></a>
+<span class="sourceLineNo">283</span>   * @return  {@code true} if embedded JSON-formatted request or response<a name="line.283"></a>
+<span class="sourceLineNo">284</span>   *          controls should be allowed, or {@code false} if not.<a name="line.284"></a>
+<span class="sourceLineNo">285</span>   */<a name="line.285"></a>
+<span class="sourceLineNo">286</span>  public boolean allowEmbeddedJSONFormattedControl()<a name="line.286"></a>
+<span class="sourceLineNo">287</span>  {<a name="line.287"></a>
+<span class="sourceLineNo">288</span>    return allowEmbeddedJSONFormattedControl;<a name="line.288"></a>
+<span class="sourceLineNo">289</span>  }<a name="line.289"></a>
+<span class="sourceLineNo">290</span><a name="line.290"></a>
+<span class="sourceLineNo">291</span><a name="line.291"></a>
+<span class="sourceLineNo">292</span><a name="line.292"></a>
+<span class="sourceLineNo">293</span>  /**<a name="line.293"></a>
+<span class="sourceLineNo">294</span>   * Specifies whether to allow a JSON-formatted request or response control to<a name="line.294"></a>
+<span class="sourceLineNo">295</span>   * include another JSON-formatted request or response control in the set of<a name="line.295"></a>
+<span class="sourceLineNo">296</span>   * embedded controls.  If embedded JSON-formatted controls are not allowed,<a name="line.296"></a>
+<span class="sourceLineNo">297</span>   * then the attempt to decode will throw an exception if the control is<a name="line.297"></a>
+<span class="sourceLineNo">298</span>   * critical, or it will be ignored with a non-fatal error message if the<a name="line.298"></a>
+<span class="sourceLineNo">299</span>   * control is non-critical.<a name="line.299"></a>
+<span class="sourceLineNo">300</span>   *<a name="line.300"></a>
+<span class="sourceLineNo">301</span>   * @param  allowEmbeddedJSONFormattedControl  Indicates whether to allow a<a name="line.301"></a>
+<span class="sourceLineNo">302</span>   *                                            JSON-formatted request or<a name="line.302"></a>
+<span class="sourceLineNo">303</span>   *                                            response control.  If this is<a name="line.303"></a>
+<span class="sourceLineNo">304</span>   *                                            {@code true}, then an embedded<a name="line.304"></a>
+<span class="sourceLineNo">305</span>   *                                            JSON-formatted control will<a name="line.305"></a>
+<span class="sourceLineNo">306</span>   *                                            either result in an exception<a name="line.306"></a>
+<span class="sourceLineNo">307</span>   *                                            (if the embedded control is<a name="line.307"></a>
+<span class="sourceLineNo">308</span>   *                                            critical) or cause it to be<a name="line.308"></a>
+<span class="sourceLineNo">309</span>   *                                            ignored with a non-fatal error<a name="line.309"></a>
+<span class="sourceLineNo">310</span>   *                                            message (if it is not critical).<a name="line.310"></a>
+<span class="sourceLineNo">311</span>   *                                            If this is {@code false}, then<a name="line.311"></a>
+<span class="sourceLineNo">312</span>   *                                            the JSON-formatted control will<a name="line.312"></a>
+<span class="sourceLineNo">313</span>   *                                            be included directly in the list<a name="line.313"></a>
+<span class="sourceLineNo">314</span>   *                                            of decoded controls that is<a name="line.314"></a>
+<span class="sourceLineNo">315</span>   *                                            returned without attempting to<a name="line.315"></a>
+<span class="sourceLineNo">316</span>   *                                            extract its embedded controls.<a name="line.316"></a>
+<span class="sourceLineNo">317</span>   */<a name="line.317"></a>
+<span class="sourceLineNo">318</span>  public void setAllowEmbeddedJSONFormattedControl(<a name="line.318"></a>
+<span class="sourceLineNo">319</span>                   final boolean allowEmbeddedJSONFormattedControl)<a name="line.319"></a>
+<span class="sourceLineNo">320</span>  {<a name="line.320"></a>
+<span class="sourceLineNo">321</span>    this.allowEmbeddedJSONFormattedControl = allowEmbeddedJSONFormattedControl;<a name="line.321"></a>
+<span class="sourceLineNo">322</span>  }<a name="line.322"></a>
+<span class="sourceLineNo">323</span><a name="line.323"></a>
+<span class="sourceLineNo">324</span><a name="line.324"></a>
+<span class="sourceLineNo">325</span><a name="line.325"></a>
+<span class="sourceLineNo">326</span>  /**<a name="line.326"></a>
+<span class="sourceLineNo">327</span>   * Indicates whether to use strict mode when parsing JSON objects as controls.<a name="line.327"></a>
+<span class="sourceLineNo">328</span>   * This may include throwing an exception if a JSON object contains any<a name="line.328"></a>
+<span class="sourceLineNo">329</span>   * unrecognized fields, or if the object violates any other control-specific<a name="line.329"></a>
+<span class="sourceLineNo">330</span>   * constraints.<a name="line.330"></a>
+<span class="sourceLineNo">331</span>   *<a name="line.331"></a>
+<span class="sourceLineNo">332</span>   * @return  {@code true} if strict mode should be used when parsing JSON<a name="line.332"></a>
+<span class="sourceLineNo">333</span>   *          objects as controls, or {@code false} if a lenient mode should be<a name="line.333"></a>
+<span class="sourceLineNo">334</span>   *          used.<a name="line.334"></a>
+<span class="sourceLineNo">335</span>   */<a name="line.335"></a>
+<span class="sourceLineNo">336</span>  public boolean strict()<a name="line.336"></a>
+<span class="sourceLineNo">337</span>  {<a name="line.337"></a>
+<span class="sourceLineNo">338</span>    return strict;<a name="line.338"></a>
+<span class="sourceLineNo">339</span>  }<a name="line.339"></a>
+<span class="sourceLineNo">340</span><a name="line.340"></a>
+<span class="sourceLineNo">341</span><a name="line.341"></a>
+<span class="sourceLineNo">342</span><a name="line.342"></a>
+<span class="sourceLineNo">343</span>  /**<a name="line.343"></a>
+<span class="sourceLineNo">344</span>   * Specifies whether to use strict mode when parsing JSON objects as controls.<a name="line.344"></a>
+<span class="sourceLineNo">345</span>   * This may include throwing an exception if a JSON object contains any<a name="line.345"></a>
+<span class="sourceLineNo">346</span>   * unrecognized fields, or if the object violates any other control-specific<a name="line.346"></a>
+<span class="sourceLineNo">347</span>   * constraints.<a name="line.347"></a>
+<span class="sourceLineNo">348</span>   *<a name="line.348"></a>
+<span class="sourceLineNo">349</span>   * @param  strict  Indicates whether to use strict mode when parsing JSON<a name="line.349"></a>
+<span class="sourceLineNo">350</span>   *                 objects as controls.  If this is {@code true}, then strict<a name="line.350"></a>
+<span class="sourceLineNo">351</span>   *                 mode will be used.  If this is {@code false}, then a more<a name="line.351"></a>
+<span class="sourceLineNo">352</span>   *                 lenient mode will be used.<a name="line.352"></a>
+<span class="sourceLineNo">353</span>   */<a name="line.353"></a>
+<span class="sourceLineNo">354</span>  public void setStrict(final boolean strict)<a name="line.354"></a>
+<span class="sourceLineNo">355</span>  {<a name="line.355"></a>
+<span class="sourceLineNo">356</span>    this.strict = strict;<a name="line.356"></a>
+<span class="sourceLineNo">357</span>  }<a name="line.357"></a>
+<span class="sourceLineNo">358</span><a name="line.358"></a>
+<span class="sourceLineNo">359</span><a name="line.359"></a>
+<span class="sourceLineNo">360</span><a name="line.360"></a>
+<span class="sourceLineNo">361</span>  /**<a name="line.361"></a>
+<span class="sourceLineNo">362</span>   * Retrieves a string representation of this JSON-formatted control decode<a name="line.362"></a>
+<span class="sourceLineNo">363</span>   * behavior.<a name="line.363"></a>
+<span class="sourceLineNo">364</span>   *<a name="line.364"></a>
+<span class="sourceLineNo">365</span>   * @return  A string representation of this JSON-formatted control decode<a name="line.365"></a>
+<span class="sourceLineNo">366</span>   *          behavior.<a name="line.366"></a>
+<span class="sourceLineNo">367</span>   */<a name="line.367"></a>
+<span class="sourceLineNo">368</span>  @Override()<a name="line.368"></a>
+<span class="sourceLineNo">369</span>  @NotNull()<a name="line.369"></a>
+<span class="sourceLineNo">370</span>  public String toString()<a name="line.370"></a>
+<span class="sourceLineNo">371</span>  {<a name="line.371"></a>
+<span class="sourceLineNo">372</span>    final StringBuilder buffer = new StringBuilder();<a name="line.372"></a>
+<span class="sourceLineNo">373</span>    toString(buffer);<a name="line.373"></a>
+<span class="sourceLineNo">374</span>    return buffer.toString();<a name="line.374"></a>
+<span class="sourceLineNo">375</span>  }<a name="line.375"></a>
+<span class="sourceLineNo">376</span><a name="line.376"></a>
+<span class="sourceLineNo">377</span><a name="line.377"></a>
+<span class="sourceLineNo">378</span><a name="line.378"></a>
+<span class="sourceLineNo">379</span>  /**<a name="line.379"></a>
+<span class="sourceLineNo">380</span>   * Appends a string representation of this JSON-formatted control decode<a name="line.380"></a>
+<span class="sourceLineNo">381</span>   * behavior to the provided buffer.<a name="line.381"></a>
+<span class="sourceLineNo">382</span>   *<a name="line.382"></a>
+<span class="sourceLineNo">383</span>   * @param  buffer  The buffer to which the string representation should be<a name="line.383"></a>
+<span class="sourceLineNo">384</span>   *                 appended.<a name="line.384"></a>
+<span class="sourceLineNo">385</span>   */<a name="line.385"></a>
+<span class="sourceLineNo">386</span>  public void toString(@NotNull final StringBuilder buffer)<a name="line.386"></a>
+<span class="sourceLineNo">387</span>  {<a name="line.387"></a>
+<span class="sourceLineNo">388</span>    buffer.append(<a name="line.388"></a>
+<span class="sourceLineNo">389</span>         "JSONFormattedControlDecodeBehavior(throwOnUnparsableObject=");<a name="line.389"></a>
+<span class="sourceLineNo">390</span>    buffer.append(throwOnUnparsableObject);<a name="line.390"></a>
+<span class="sourceLineNo">391</span>    buffer.append(", throwOnInvalidCriticalControl=");<a name="line.391"></a>
+<span class="sourceLineNo">392</span>    buffer.append(throwOnInvalidCriticalControl);<a name="line.392"></a>
+<span class="sourceLineNo">393</span>    buffer.append(", throwOnInvalidNonCriticalControl=");<a name="line.393"></a>
+<span class="sourceLineNo">394</span>    buffer.append(throwOnInvalidNonCriticalControl);<a name="line.394"></a>
+<span class="sourceLineNo">395</span>    buffer.append(", allowEmbeddedJSONFormattedControl=");<a name="line.395"></a>
+<span class="sourceLineNo">396</span>    buffer.append(allowEmbeddedJSONFormattedControl);<a name="line.396"></a>
+<span class="sourceLineNo">397</span>    buffer.append(", strict=");<a name="line.397"></a>
+<span class="sourceLineNo">398</span>    buffer.append(strict);<a name="line.398"></a>
+<span class="sourceLineNo">399</span>    buffer.append(')');<a name="line.399"></a>
+<span class="sourceLineNo">400</span>  }<a name="line.400"></a>
+<span class="sourceLineNo">401</span>}<a name="line.401"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+</div>
+</body>
+</html>

@@ -1,24 +1,25 @@
-﻿Build1=Default,jhs.atr
+﻿Build1=Default,com.detektor.smartscan
 File1=Layout.bal
 FileGroup1=Default Group
 Group=Default Group
-Library1=core
-Library2=json
-Library3=runtimepermissions
-Library4=websocket
-Library5=xui
-Library6=androidtextrecognition
-ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="33"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~SetApplicationAttribute(android:theme, "@style/MyAppTheme")~\n~AddApplicationText(<meta-data~\n~            android:name="com.google.android.gms.version"~\n~            android:value="@integer/google_play_services_version" />~\n~        <meta-data~\n~            android:name="com.google.android.gms.vision.DEPENDENCIES"~\n~            android:value="ocr" />)	~\n~		~\n~AddPermission(android.permission.CAMERA) ' Required to be able to access the camera device.		~\n~AddPermission(android.permission.GET_TASKS)~\n~AddPermission("android.hardware.camera")~\n~AddPermission("android.permission.FLASHLIGHT")~\n~~\n~~\n~~\n~~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~
+Library1=androidtextrecognition
+Library2=core
+Library3=json
+Library4=runtimepermissions
+Library5=websocket
+Library6=xui
+Library7=xui views
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="34"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~SetApplicationAttribute(android:theme, "@style/MyAppTheme")~\n~AddApplicationText(<meta-data~\n~            android:name="com.google.android.gms.version"~\n~            android:value="@integer/google_play_services_version" />~\n~        <meta-data~\n~            android:name="com.google.android.gms.vision.DEPENDENCIES"~\n~            android:value="ocr" />)	~\n~		~\n~AddPermission(android.permission.CAMERA) ' Required to be able to access the camera device.		~\n~AddPermission(android.permission.GET_TASKS)~\n~AddPermission("android.hardware.camera")~\n~AddPermission("android.permission.FLASHLIGHT")~\n~~\n~~\n~~\n~~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~
 Module1=Starter
 Module2=WebSocketHandler
 NumberOfFiles=1
-NumberOfLibraries=6
+NumberOfLibraries=7
 NumberOfModules=2
 Version=12.8
 @EndOfDesignText@
 #Region  Project Attributes 
-	#ApplicationLabel: Detektor SmartScan
-	#VersionCode: 1
+	#ApplicationLabel: SmartScan
+	#VersionCode: 2
 	#VersionName: 
 	'SupportedOrientations possible values: unspecified, landscape or portrait.
 	#SupportedOrientations: unspecified
@@ -28,8 +29,8 @@ Version=12.8
 #AdditionalRes: ..\resource
 
 #Region  Activity Attributes 
-	#FullScreen: False
-	#IncludeTitle: True
+	#FullScreen: True
+	#IncludeTitle: False
 #End Region
 
 Sub Process_Globals
@@ -41,8 +42,9 @@ Sub Process_Globals
 '	Dim t As Timer
 	Private wsh As WebSocketHandler
 	'Private link As String = "ws://195.35.32.126:55555/AgregarFactura"
-	Private link As String = "ws://192.168.75.124:55555/AgregarFactura"
-
+	
+	'Private link As String = "ws://195.35.32.126:55555/AgregarFactura"
+	
 End Sub
 
 Sub Globals
@@ -55,16 +57,86 @@ Sub Globals
 	Private lblServerTime As Label
 	Private lblStatus As Label
 	Private btnSend As Button
-
+	Private ramdon_number As Int
+	Private lblidapp As B4XView
+	Private B4XComboBox1 As B4XComboBox
+	Private conectado As String = "HN"
+	Private datamsj As String = "hn"
+	Private paises As List
+	Private link As String = "ws://10.125.15.164/HN"
+	Log(link)
+	
 End Sub
 
+
+Private Sub B4XComboBox1_SelectedIndexChanged (Index As Int)
+	
+	Dim PaisSeleccionado As String = B4XComboBox1.GetItem(Index)
+    
+	' Usar Select Case para cambiar la imagen
+	Select PaisSeleccionado
+		Case "Honduras"
+			conectado="HN"
+			datamsj="hn"
+			link= "ws://10.125.15.164/HN"
+			Log(link)
+			wsh.Close
+			btnConnect.Enabled=True
+		Case "El Salvador"
+			conectado="SV"
+			datamsj="sv"
+			link= "ws://10.125.15.164/SV"
+			Log(link)
+			wsh.Close
+			btnConnect.Enabled=True
+		Case "Guatemala"
+			conectado="GT"
+			datamsj="gt"
+			link= "ws://10.125.15.164/GT"
+			Log(link)
+			wsh.Close
+			btnConnect.Enabled=True
+		Case "Nicaragua"
+			conectado="NI"
+			datamsj="ni"
+			link= "ws://10.125.15.164/NI"
+			Log(link)
+			wsh.Close
+			btnConnect.Enabled=True
+		Case "Costa Rica"
+			conectado="CR"
+			datamsj="cr"
+			link= "ws://10.125.15.164/CR"
+			Log(link)
+			wsh.Close
+			btnConnect.Enabled=True
+		Case "Panama"
+			conectado="PA"
+			datamsj="pa"
+			link= "ws://10.125.15.164/PA"
+			Log(link)
+			wsh.Close
+			btnConnect.Enabled=True
+		Case "Colombia"
+			conectado="CO"
+			datamsj="co"
+			link= "ws://10.125.15.164/CO"
+			Log(link)
+			wsh.Close
+			btnConnect.Enabled=True
+	End Select
+	
+End Sub
 Sub Activity_Create(FirstTime As Boolean)
 	If FirstTime Then
 		wsh.Initialize(Me, "wsh")
 	End If
 	Activity.LoadLayout("Layout")
 '	t.Initialize("t", 2000)             'initialize the timer
-	
+	 ramdon_number = Rnd(0,99999)
+	paises.Initialize
+	paises.AddAll(Array As String("Honduras","El Salvador","Guatemala","Nicaragua","Costa Rica","Panama","Colombia"))
+	B4XComboBox1.SetItems(paises)
 End Sub
 
 Sub wsh_ServerTime(Params As List)
@@ -88,9 +160,11 @@ End Sub
 Sub UpdateStatus
 	If wsh.ws.Connected Then
 		lblStatus.Text = "Status: Connected"
-		Button4.Enabled=True
+		'Button4.Enabled=True
+		lblidapp.Text= ramdon_number
 	Else
 		lblStatus.Text = "Status: Disconnected"
+		lblidapp.Text=""
 	End If
 	btnConnect.Enabled = Not(wsh.ws.Connected)
 	btnSend.Enabled = wsh.ws.Connected
@@ -104,14 +178,15 @@ Sub Activity_Pause (UserClosed As Boolean)
 
 End Sub
 
-Sub Button1_Click
+ Sub Button1_Click
 	Dim Result As Boolean = True                           'check for camera permission                                                                  
 	If Not(rp.Check(rp.PERMISSION_CAMERA)) Then                                                        
 		rp.CheckAndRequest(rp.PERMISSION_CAMERA)                                                       
 		Wait For Activity_PermissionResult (Permission As String, Result As Boolean)                   
 	End If                                                                                             
 	If Result Then                                                                                     
-		atr1.startScanning                                 'if permission granted then start the scan
+		atr1.startScanning    
+		Button4.Enabled=True                             'if permission granted then start the scan
 '		t.Enabled = True                                   'enable the timer only once the scanner has been started
 	End If	
 End Sub
@@ -180,6 +255,10 @@ Sub Button3_Click
 End Sub
 
 Sub Button4_Click
+	If lblStatus.Text = "Status: Connected" Then
+		ToastMessageShow("Capturado en OCR",True)
+
+	
 		
 		Dim blk As List
 		blk.Initialize
@@ -198,7 +277,8 @@ Sub Button4_Click
 				Log("block(" & i & ") = " & blk.Get(i))			
 			Dim data As Map
 			data.Initialize
-			data.Put("message", blk.Get(i))
+			
+				data.Put(ramdon_number&"message"&datamsj, blk.Get(i))
 			Log(data)
 			wsh.SendEventToServer("Device_Message", data)
 			
@@ -218,8 +298,10 @@ Sub Button4_Click
 			
 	
 		End If 	
-		
-	
+	Else
+		ToastMessageShow("Conecte la aplicación al servidor",True)
+	End If
+
 End Sub
 
 

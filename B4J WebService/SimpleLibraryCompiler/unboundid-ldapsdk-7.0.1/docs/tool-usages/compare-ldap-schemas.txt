@@ -1,0 +1,229 @@
+Usage for compare-ldap-schemas:
+
+This tool can be used to compare the schemas of two LDAP servers to identify
+schema elements that may be present in one but not the other, or elements that
+may be present in both servers but have differences between them.
+
+Usage:  compare-ldap-schemas {options}
+
+Available options include:
+
+  First Connection and Authentication Arguments
+
+    --firstHostname {host}
+        The IP address or resolvable name to use to connect to the directory
+        server.  If this is not provided, then a default value of 'localhost'
+        will be used.
+    --firstPort {port}
+        The port to use to connect to the directory server.  If this is not
+        provided, then a default value of 389 will be used.
+    --firstBindDN {dn}
+        The DN to use to bind to the directory server when performing simple
+        authentication.
+    --firstBindPassword {password}
+        The password to use to bind to the directory server when performing
+        simple authentication or a password-based SASL mechanism.
+    --firstBindPasswordFile {path}
+        The path to the file containing the password to use to bind to the
+        directory server when performing simple authentication or a
+        password-based SASL mechanism.
+    --firstUseSSL
+        Use SSL when communicating with the directory server.
+    --firstUseStartTLS
+        Use StartTLS when communicating with the directory server.
+    --firstDefaultTrust
+        Use the JVM's default trust store, and optionally an additional trust
+        store specified using the --trustStorePath argument, to
+        non-interactively determine whether to trust any certificate chain
+        presented during TLS negotiation.  If the chain cannot be trusted based
+        on any of those sources, then negotiation will fail without prompting
+        about whether to trust it.
+    --firstTrustAll
+        Trust any certificate presented by the directory server.
+    --firstKeyStorePath {path}
+        The path to the file to use as the key store for obtaining client
+        certificates when communicating securely with the directory server.
+    --firstKeyStorePassword {password}
+        The password to use to access the key store contents.
+    --firstKeyStorePasswordFile {path}
+        The path to the file containing the password to use to access the key
+        store contents.
+    --firstKeyStoreFormat {format}
+        The format (e.g., JKS, PKCS12, PKCS11, BCFKS, etc.) for the key store
+        file.
+    --firstTrustStorePath {path}
+        The path to the file to use as trust store when determining whether to
+        trust a certificate presented by the directory server.
+    --firstTrustStorePassword {password}
+        The password to use to access the trust store contents.
+    --firstTrustStorePasswordFile {path}
+        The path to the file containing the password to use to access the trust
+        store contents.
+    --firstTrustStoreFormat {format}
+        The format (e.g., JKS, PKCS12, PKCS11, BCFKS, etc.) for the trust store
+        file.
+    --firstCertNickname {nickname}
+        The nickname (alias) of the client certificate in the key store to
+        present to the directory server for SSL client authentication.
+    --firstSASLOption {name=value}
+        A name-value pair providing information to use when performing SASL
+        authentication.
+
+  Second Connection and Authentication Arguments
+
+    --secondHostname {host}
+        The IP address or resolvable name to use to connect to the directory
+        server.  If this is not provided, then a default value of 'localhost'
+        will be used.
+    --secondPort {port}
+        The port to use to connect to the directory server.  If this is not
+        provided, then a default value of 389 will be used.
+    --secondBindDN {dn}
+        The DN to use to bind to the directory server when performing simple
+        authentication.
+    --secondBindPassword {password}
+        The password to use to bind to the directory server when performing
+        simple authentication or a password-based SASL mechanism.
+    --secondBindPasswordFile {path}
+        The path to the file containing the password to use to bind to the
+        directory server when performing simple authentication or a
+        password-based SASL mechanism.
+    --secondUseSSL
+        Use SSL when communicating with the directory server.
+    --secondUseStartTLS
+        Use StartTLS when communicating with the directory server.
+    --secondDefaultTrust
+        Use the JVM's default trust store, and optionally an additional trust
+        store specified using the --trustStorePath argument, to
+        non-interactively determine whether to trust any certificate chain
+        presented during TLS negotiation.  If the chain cannot be trusted based
+        on any of those sources, then negotiation will fail without prompting
+        about whether to trust it.
+    --secondTrustAll
+        Trust any certificate presented by the directory server.
+    --secondKeyStorePath {path}
+        The path to the file to use as the key store for obtaining client
+        certificates when communicating securely with the directory server.
+    --secondKeyStorePassword {password}
+        The password to use to access the key store contents.
+    --secondKeyStorePasswordFile {path}
+        The path to the file containing the password to use to access the key
+        store contents.
+    --secondKeyStoreFormat {format}
+        The format (e.g., JKS, PKCS12, PKCS11, BCFKS, etc.) for the key store
+        file.
+    --secondTrustStorePath {path}
+        The path to the file to use as trust store when determining whether to
+        trust a certificate presented by the directory server.
+    --secondTrustStorePassword {password}
+        The password to use to access the trust store contents.
+    --secondTrustStorePasswordFile {path}
+        The path to the file containing the password to use to access the trust
+        store contents.
+    --secondTrustStoreFormat {format}
+        The format (e.g., JKS, PKCS12, PKCS11, BCFKS, etc.) for the trust store
+        file.
+    --secondCertNickname {nickname}
+        The nickname (alias) of the client certificate in the key store to
+        present to the directory server for SSL client authentication.
+    --secondSASLOption {name=value}
+        A name-value pair providing information to use when performing SASL
+        authentication.
+
+  Other Arguments
+
+    --firstSchemaEntryDN {dn}
+        The DN of the subschema subentry in the first server that contains the
+        definitions to examine.  If this is not specified, then the entry
+        referenced by the subschemaSubentry attribute in the server's root DSE
+        will be used.
+    --secondSchemaEntryDN {dn}
+        The DN of the subschema subentry in the second server that contains the
+        definitions to examine.  If this is not specified, then the entry
+        referenced by the subschemaSubentry attribute in the server's root DSE
+        will be used.
+    --schemaElementType {elementType}
+        The types of schema elements to examine.  Allowed values include
+        attribute-syntaxes, matching-rules, attribute-types, object-classes,
+        dit-content-rules, dit-structure-rules, name-forms, and
+        matching-rule-uses.  This may be provided multiple times to include
+        multiple specific schema element types.  If this argument is not
+        provided, then all schema element types will be considered.
+    --getExtendedSchemaInfo
+        Use the extended schema info request control, which may be used to
+        retrieve additional information about schema element definitions from a
+        Ping Identity Directory Server.
+    --ignoreDescriptions
+        Indicates that the tool should ignore differences in descriptions when
+        comparing schema elements.
+    --ignoreExtensions
+        Indicates that the tool should ignore differences in extensions when
+        comparing schema elements.
+    --includeElementsWithNameMatchingPrefix {prefix}
+        Indicates that the tool should only examine schema elements with names
+        that match the specified prefix.  This argument may be provided
+        multiple times to specify multiple include prefixes.  If no include or
+        exclude prefixes are specified, then names will not be used when
+        considering which elements to examine.
+    --excludeElementsWithNameMatchingPrefix {prefix}
+        Indicates that the tool should not examine schema elements with names
+        that match the specified prefix.  This argument may be provided
+        multiple times to specify multiple exclude prefixes.  If no include or
+        exclude prefixes are specified, then names will not be used when
+        considering which elements to examine.
+    --includeElementsWithExtensionValue {name=value}
+        Indicates that the tool should only examine schema elements with an
+        extension that has the specified name and value.  This argument may be
+        provided multiple times to specify multiple include extension values.
+        If no include or exclude extension values are specified, then
+        extensions will not be used when considering which elements to examine.
+    --excludeElementsWithExtensionValue {name=value}
+        Indicates that the tool should no examine schema elements with an
+        extension that has the specified name and value.  This argument may be
+        provided multiple times to specify multiple exclude extension values.
+        If no include or exclude extension values are specified, then
+        extensions will not be used when considering which elements to examine.
+
+  Usage Arguments
+
+    --interactive
+        Launch the tool in interactive mode.
+    --outputFile {path}
+        Write all standard output and standard error messages to the specified
+        file instead of to the console.
+    --appendToOutputFile
+        Indicates that the tool should append to the file specified by the
+        --outputFile argument if it already exists.  If this argument is not
+        provided and the output file already exists, it will be overwritten.
+    --teeOutput
+        Write all standard output and standard error messages to the console as
+        well as to the specified output file.  The --outputFile argument must
+        also be provided.
+    -H, --help
+        Display usage information for this program.
+    --help-debug
+        Display usage information for debug logging.
+    -V, --version
+        Display version information for this program.
+    --propertiesFilePath {path}
+        The path to a properties file used to specify default values for
+        arguments not supplied on the command line.
+    --generatePropertiesFile {path}
+        Write an empty properties file that may be used to specify default
+        values for arguments.
+    --noPropertiesFile
+        Do not obtain any argument values from a properties file.
+    --suppressPropertiesFileComment
+        Suppress output listing the arguments obtained from a properties file.
+
+Examples
+
+  Compares the LDAP schemas for the two directory servers using the default
+  settings, which will identify any differences between the schemas.
+
+    compare-ldap-schemas --firstHostname ds1.example.com --firstPort 636 \
+         --firstUseSSL --firstBindDN "cn=Directory Manager" \
+         --firstBindPasswordFile /path/to/password.txt \
+         --secondHostname ds2.example.com --secondPort 636 --secondUseSSL \
+         --secondBindDN "cn=Directory Manager" \
+         --secondBindPasswordFile /path/to/password.txt

@@ -1,0 +1,431 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>The compare-ldap-schemas Command-Line Tool</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="../unboundid.css" type="text/css">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+  </head>
+
+  <body>
+    <h1>The compare-ldap-schemas Command-Line Tool</h1>
+
+    <p>
+      This tool can be used to compare the schemas of two LDAP servers to identify schema elements that may be present in one but not the other, or elements that may be present in both servers but have differences between them.
+    </p>
+    <h3>Usage</h3>
+    <blockquote><pre>compare-ldap-schemas <i>{arguments}</i></pre></blockquote>
+    <h3>First Connection and Authentication Arguments</h3>
+    <ul>
+      <li>
+        <tt>--firstHostname <i>{host}</i></tt> &mdash; The IP address or resolvable name to use to connect to the directory server.  If this is not provided, then a default value of 'localhost' will be used.
+        <br><br>
+      </li>
+      <li>
+        <tt>--firstPort <i>{port}</i></tt> &mdash; The port to use to connect to the directory server.  If this is not provided, then a default value of 389 will be used.
+        <br>
+        The specified value must not be less than 1 or greater than 65,535.
+        <br><br>
+      </li>
+      <li>
+        <tt>--firstBindDN <i>{dn}</i></tt> &mdash; The DN to use to bind to the directory server when performing simple authentication.
+        <br>
+        A provided value must be able to be parsed as an LDAP distinguished name as described in RFC 4514.
+        <br><br>
+      </li>
+      <li>
+        <tt>--firstBindPassword <i>{password}</i></tt> &mdash; The password to use to bind to the directory server when performing simple authentication or a password-based SASL mechanism.
+        <br><br>
+      </li>
+      <li>
+        <tt>--firstBindPasswordFile <i>{path}</i></tt> &mdash; The path to the file containing the password to use to bind to the directory server when performing simple authentication or a password-based SASL mechanism.
+        <br>
+        The specified path must refer to a file that exists.
+        <br><br>
+      </li>
+      <li>
+        <tt>--firstUseSSL</tt> &mdash; Use SSL when communicating with the directory server.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--firstUseStartTLS</tt> &mdash; Use StartTLS when communicating with the directory server.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--firstDefaultTrust</tt> &mdash; Use the JVM's default trust store, and optionally an additional trust store specified using the --trustStorePath argument, to non-interactively determine whether to trust any certificate chain presented during TLS negotiation.  If the chain cannot be trusted based on any of those sources, then negotiation will fail without prompting about whether to trust it.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--firstTrustAll</tt> &mdash; Trust any certificate presented by the directory server.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--firstKeyStorePath <i>{path}</i></tt> &mdash; The path to the file to use as the key store for obtaining client certificates when communicating securely with the directory server.
+        <br><br>
+      </li>
+      <li>
+        <tt>--firstKeyStorePassword <i>{password}</i></tt> &mdash; The password to use to access the key store contents.
+        <br><br>
+      </li>
+      <li>
+        <tt>--firstKeyStorePasswordFile <i>{path}</i></tt> &mdash; The path to the file containing the password to use to access the key store contents.
+        <br>
+        The specified path must refer to a file that exists.
+        <br><br>
+      </li>
+      <li>
+        <tt>--firstKeyStoreFormat <i>{format}</i></tt> &mdash; The format (e.g., JKS, PKCS12, PKCS11, BCFKS, etc.) for the key store file.
+        <br><br>
+      </li>
+      <li>
+        <tt>--firstTrustStorePath <i>{path}</i></tt> &mdash; The path to the file to use as trust store when determining whether to trust a certificate presented by the directory server.
+        <br><br>
+      </li>
+      <li>
+        <tt>--firstTrustStorePassword <i>{password}</i></tt> &mdash; The password to use to access the trust store contents.
+        <br><br>
+      </li>
+      <li>
+        <tt>--firstTrustStorePasswordFile <i>{path}</i></tt> &mdash; The path to the file containing the password to use to access the trust store contents.
+        <br>
+        The specified path must refer to a file that exists.
+        <br><br>
+      </li>
+      <li>
+        <tt>--firstTrustStoreFormat <i>{format}</i></tt> &mdash; The format (e.g., JKS, PKCS12, PKCS11, BCFKS, etc.) for the trust store file.
+        <br><br>
+      </li>
+      <li>
+        <tt>--firstCertNickname <i>{nickname}</i></tt> &mdash; The nickname (alias) of the client certificate in the key store to present to the directory server for SSL client authentication.
+        <br><br>
+      </li>
+      <li>
+        <tt>--firstSASLOption <i>{name=value}</i></tt> &mdash; A name-value pair providing information to use when performing SASL authentication.
+        <br><br>
+      </li>
+    </ul>
+    <h3>Second Connection and Authentication Arguments</h3>
+    <ul>
+      <li>
+        <tt>--secondHostname <i>{host}</i></tt> &mdash; The IP address or resolvable name to use to connect to the directory server.  If this is not provided, then a default value of 'localhost' will be used.
+        <br><br>
+      </li>
+      <li>
+        <tt>--secondPort <i>{port}</i></tt> &mdash; The port to use to connect to the directory server.  If this is not provided, then a default value of 389 will be used.
+        <br>
+        The specified value must not be less than 1 or greater than 65,535.
+        <br><br>
+      </li>
+      <li>
+        <tt>--secondBindDN <i>{dn}</i></tt> &mdash; The DN to use to bind to the directory server when performing simple authentication.
+        <br>
+        A provided value must be able to be parsed as an LDAP distinguished name as described in RFC 4514.
+        <br><br>
+      </li>
+      <li>
+        <tt>--secondBindPassword <i>{password}</i></tt> &mdash; The password to use to bind to the directory server when performing simple authentication or a password-based SASL mechanism.
+        <br><br>
+      </li>
+      <li>
+        <tt>--secondBindPasswordFile <i>{path}</i></tt> &mdash; The path to the file containing the password to use to bind to the directory server when performing simple authentication or a password-based SASL mechanism.
+        <br>
+        The specified path must refer to a file that exists.
+        <br><br>
+      </li>
+      <li>
+        <tt>--secondUseSSL</tt> &mdash; Use SSL when communicating with the directory server.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--secondUseStartTLS</tt> &mdash; Use StartTLS when communicating with the directory server.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--secondDefaultTrust</tt> &mdash; Use the JVM's default trust store, and optionally an additional trust store specified using the --trustStorePath argument, to non-interactively determine whether to trust any certificate chain presented during TLS negotiation.  If the chain cannot be trusted based on any of those sources, then negotiation will fail without prompting about whether to trust it.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--secondTrustAll</tt> &mdash; Trust any certificate presented by the directory server.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--secondKeyStorePath <i>{path}</i></tt> &mdash; The path to the file to use as the key store for obtaining client certificates when communicating securely with the directory server.
+        <br><br>
+      </li>
+      <li>
+        <tt>--secondKeyStorePassword <i>{password}</i></tt> &mdash; The password to use to access the key store contents.
+        <br><br>
+      </li>
+      <li>
+        <tt>--secondKeyStorePasswordFile <i>{path}</i></tt> &mdash; The path to the file containing the password to use to access the key store contents.
+        <br>
+        The specified path must refer to a file that exists.
+        <br><br>
+      </li>
+      <li>
+        <tt>--secondKeyStoreFormat <i>{format}</i></tt> &mdash; The format (e.g., JKS, PKCS12, PKCS11, BCFKS, etc.) for the key store file.
+        <br><br>
+      </li>
+      <li>
+        <tt>--secondTrustStorePath <i>{path}</i></tt> &mdash; The path to the file to use as trust store when determining whether to trust a certificate presented by the directory server.
+        <br><br>
+      </li>
+      <li>
+        <tt>--secondTrustStorePassword <i>{password}</i></tt> &mdash; The password to use to access the trust store contents.
+        <br><br>
+      </li>
+      <li>
+        <tt>--secondTrustStorePasswordFile <i>{path}</i></tt> &mdash; The path to the file containing the password to use to access the trust store contents.
+        <br>
+        The specified path must refer to a file that exists.
+        <br><br>
+      </li>
+      <li>
+        <tt>--secondTrustStoreFormat <i>{format}</i></tt> &mdash; The format (e.g., JKS, PKCS12, PKCS11, BCFKS, etc.) for the trust store file.
+        <br><br>
+      </li>
+      <li>
+        <tt>--secondCertNickname <i>{nickname}</i></tt> &mdash; The nickname (alias) of the client certificate in the key store to present to the directory server for SSL client authentication.
+        <br><br>
+      </li>
+      <li>
+        <tt>--secondSASLOption <i>{name=value}</i></tt> &mdash; A name-value pair providing information to use when performing SASL authentication.
+        <br><br>
+      </li>
+    </ul>
+    <h3>Additional Arguments</h3>
+    <ul>
+      <li>
+        <tt>--firstSchemaEntryDN <i>{dn}</i></tt> &mdash; The DN of the subschema subentry in the first server that contains the definitions to examine.  If this is not specified, then the entry referenced by the subschemaSubentry attribute in the server's root DSE will be used.
+        <br>
+        A provided value must be able to be parsed as an LDAP distinguished name as described in RFC 4514.
+        <br><br>
+      </li>
+      <li>
+        <tt>--secondSchemaEntryDN <i>{dn}</i></tt> &mdash; The DN of the subschema subentry in the second server that contains the definitions to examine.  If this is not specified, then the entry referenced by the subschemaSubentry attribute in the server's root DSE will be used.
+        <br>
+        A provided value must be able to be parsed as an LDAP distinguished name as described in RFC 4514.
+        <br><br>
+      </li>
+      <li>
+        <tt>--schemaElementType <i>{elementType}</i></tt> &mdash; The types of schema elements to examine.  Allowed values include attribute-syntaxes, matching-rules, attribute-types, object-classes, dit-content-rules, dit-structure-rules, name-forms, and matching-rule-uses.  This may be provided multiple times to include multiple specific schema element types.  If this argument is not provided, then all schema element types will be considered.
+        <br><br>
+      </li>
+      <li>
+        <tt>--getExtendedSchemaInfo</tt> &mdash; Use the extended schema info request control, which may be used to retrieve additional information about schema element definitions from a Ping Identity Directory Server.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--ignoreDescriptions</tt> &mdash; Indicates that the tool should ignore differences in descriptions when comparing schema elements.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--ignoreExtensions</tt> &mdash; Indicates that the tool should ignore differences in extensions when comparing schema elements.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--includeElementsWithNameMatchingPrefix <i>{prefix}</i></tt> &mdash; Indicates that the tool should only examine schema elements with names that match the specified prefix.  This argument may be provided multiple times to specify multiple include prefixes.  If no include or exclude prefixes are specified, then names will not be used when considering which elements to examine.
+        <br><br>
+      </li>
+      <li>
+        <tt>--excludeElementsWithNameMatchingPrefix <i>{prefix}</i></tt> &mdash; Indicates that the tool should not examine schema elements with names that match the specified prefix.  This argument may be provided multiple times to specify multiple exclude prefixes.  If no include or exclude prefixes are specified, then names will not be used when considering which elements to examine.
+        <br><br>
+      </li>
+      <li>
+        <tt>--includeElementsWithExtensionValue <i>{name=value}</i></tt> &mdash; Indicates that the tool should only examine schema elements with an extension that has the specified name and value.  This argument may be provided multiple times to specify multiple include extension values.  If no include or exclude extension values are specified, then extensions will not be used when considering which elements to examine.
+        <br><br>
+      </li>
+      <li>
+        <tt>--excludeElementsWithExtensionValue <i>{name=value}</i></tt> &mdash; Indicates that the tool should no examine schema elements with an extension that has the specified name and value.  This argument may be provided multiple times to specify multiple exclude extension values.  If no include or exclude extension values are specified, then extensions will not be used when considering which elements to examine.
+        <br><br>
+      </li>
+      <li>
+        <tt>--interactive</tt> &mdash; Launch the tool in interactive mode.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--outputFile <i>{path}</i></tt> &mdash; Write all standard output and standard error messages to the specified file instead of to the console.
+        <br>
+        The specified path must refer to a file which may or may not exist, but whose parent directory must exist.
+        <br><br>
+      </li>
+      <li>
+        <tt>--appendToOutputFile</tt> &mdash; Indicates that the tool should append to the file specified by the --outputFile argument if it already exists.  If this argument is not provided and the output file already exists, it will be overwritten.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--teeOutput</tt> &mdash; Write all standard output and standard error messages to the console as well as to the specified output file.  The --outputFile argument must also be provided.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>-H</tt> / <tt>--help</tt> &mdash; Display usage information for this program.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--help-debug</tt> &mdash; Display usage information for debug logging.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--enable-debug-logging</tt> &mdash; Enables debug logging for the tool.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--debug-log-level <i>{level}</i></tt> &mdash; The debug log level to use for the tool.  Allowed values include 'off', 'severe', 'warning', 'info', 'fine', 'finer', and 'finest'.  If this is not specified, a default level of 'severe' will be used.
+        <br><br>
+      </li>
+      <li>
+        <tt>--debug-log-category <i>{category}</i></tt> &mdash; The message categories to include in the debug log output.  Allowed values include 'asn1', 'connect', 'exception', 'ldap', 'connectionpool', 'ldif', 'monitor', 'codingerror', and 'other'.  This argument may be provided multiple times to indicate that multiple categories should be included.  If this is not specified, then all categories will be included.
+        <br><br>
+      </li>
+      <li>
+        <tt>--include-debug-stack-traces</tt> &mdash; Indicates that debug log messages should include a stack trace with the code location from which each debug message originated.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--use-multi-line-debug-messages</tt> &mdash; Indicates that debug log messages (which will be JSON objects) should be written as multi-line strings rather than single-line strings.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--debug-log-file <i>{path}</i></tt> &mdash; The path to the debug log file to be written.  If this is not specified, a default path of 'compare-ldap-schemas.debug' will be used.
+        <br>
+        The specified path must refer to a file which may or may not exist, but whose parent directory must exist.
+        <br><br>
+      </li>
+      <li>
+        <tt>-V</tt> / <tt>--version</tt> &mdash; Display version information for this program.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--propertiesFilePath <i>{path}</i></tt> &mdash; The path to a properties file used to specify default values for arguments not supplied on the command line.
+        <br>
+        The specified path must refer to a file that exists.
+        <br><br>
+      </li>
+      <li>
+        <tt>--generatePropertiesFile <i>{path}</i></tt> &mdash; Write an empty properties file that may be used to specify default values for arguments.
+        <br>
+        The specified path must refer to a file which may or may not exist, but whose parent directory must exist.
+        <br><br>
+      </li>
+      <li>
+        <tt>--noPropertiesFile</tt> &mdash; Do not obtain any argument values from a properties file.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+      <li>
+        <tt>--suppressPropertiesFileComment</tt> &mdash; Suppress output listing the arguments obtained from a properties file.
+        <br>
+        This argument is not allowed to have a value.  If this argument is included in a set of arguments, then it will be assumed to have a value of 'true'.  If it is absent from a set of arguments, then it will be assumed to have a value of 'false'.
+        <br><br>
+      </li>
+    </ul>
+    <h3>Dependent Argument Sets</h3>
+    <ul>
+      <li>
+        If the <tt>--firstBindDN</tt> argument is provided, then at least one of the following arguments must also be provided:  <tt>--firstBindPassword</tt>, <tt>--firstBindPasswordFile</tt>
+      </li>
+      <li>
+        If the <tt>--secondBindDN</tt> argument is provided, then at least one of the following arguments must also be provided:  <tt>--secondBindPassword</tt>, <tt>--secondBindPasswordFile</tt>
+      </li>
+      <li>
+        If the <tt>--appendToOutputFile</tt> argument is provided, then the <tt>--outputFile</tt> argument must also be provided.
+      </li>
+      <li>
+        If the <tt>--teeOutput</tt> argument is provided, then the <tt>--outputFile</tt> argument must also be provided.
+      </li>
+    </ul>
+    <h3>Exclusive Argument Sets</h3>
+    <ul>
+      <li>
+        The following arguments cannot be used together:  <tt>--firstUseSSL</tt>, <tt>--firstUseStartTLS</tt>
+      </li>
+      <li>
+        The following arguments cannot be used together:  <tt>--firstBindPassword</tt>, <tt>--firstBindPasswordFile</tt>
+      </li>
+      <li>
+        The following arguments cannot be used together:  <tt>--firstKeyStorePassword</tt>, <tt>--firstKeyStorePasswordFile</tt>
+      </li>
+      <li>
+        The following arguments cannot be used together:  <tt>--firstTrustStorePassword</tt>, <tt>--firstTrustStorePasswordFile</tt>
+      </li>
+      <li>
+        The following arguments cannot be used together:  <tt>--firstTrustAll</tt>, <tt>--firstTrustStorePath</tt>
+      </li>
+      <li>
+        The following arguments cannot be used together:  <tt>--firstTrustAll</tt>, <tt>--firstDefaultTrust</tt>
+      </li>
+      <li>
+        The following arguments cannot be used together:  <tt>--secondUseSSL</tt>, <tt>--secondUseStartTLS</tt>
+      </li>
+      <li>
+        The following arguments cannot be used together:  <tt>--secondBindPassword</tt>, <tt>--secondBindPasswordFile</tt>
+      </li>
+      <li>
+        The following arguments cannot be used together:  <tt>--secondKeyStorePassword</tt>, <tt>--secondKeyStorePasswordFile</tt>
+      </li>
+      <li>
+        The following arguments cannot be used together:  <tt>--secondTrustStorePassword</tt>, <tt>--secondTrustStorePasswordFile</tt>
+      </li>
+      <li>
+        The following arguments cannot be used together:  <tt>--secondTrustAll</tt>, <tt>--secondTrustStorePath</tt>
+      </li>
+      <li>
+        The following arguments cannot be used together:  <tt>--secondTrustAll</tt>, <tt>--secondDefaultTrust</tt>
+      </li>
+      <li>
+        The following arguments cannot be used together:  <tt>--propertiesFilePath</tt>, <tt>--noPropertiesFile</tt>
+      </li>
+    </ul>
+    <h3>Examples</h3>
+    <ul>
+      <li>Compares the LDAP schemas for the two directory servers using the default settings, which will identify any differences between the schemas.</li>
+    </ul>
+    <blockquote><pre>    compare-ldap-schemas --firstHostname ds1.example.com --firstPort 636 \
+         --firstUseSSL --firstBindDN "cn=Directory Manager" \
+         --firstBindPasswordFile /path/to/password.txt \
+         --secondHostname ds2.example.com --secondPort 636 --secondUseSSL \
+         --secondBindDN "cn=Directory Manager" \
+         --secondBindPasswordFile /path/to/password.txt</pre></blockquote>
+  </body>
+</html>
