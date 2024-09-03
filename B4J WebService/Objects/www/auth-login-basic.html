@@ -1,0 +1,191 @@
+<!doctype html>
+
+<html
+  lang="en"
+  class="light-style layout-wide customizer-hide"
+  dir="ltr"
+  data-theme="theme-default"
+  data-assets-path="assets/"
+  data-template="horizontal-menu-template">
+  <head>
+    <script src="b4j_ws.js"></script>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <title>Login Detektor | SmartScan</title>
+
+    <meta name="description" content="" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="assets/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="assets/vendor/fonts/fontawesome.css" />
+    <link rel="stylesheet" href="assets/vendor/fonts/flag-icons.css" />
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="assets/vendor/css/rtl/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="assets/vendor/css/rtl/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="assets/css/demo.css" />
+
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="assets/vendor/libs/typeahead-js/typeahead.css" />
+    <!-- Vendor -->
+    <link rel="stylesheet" href="assets/vendor/libs/@form-validation/form-validation.css" />
+
+    <!-- Page CSS -->
+    <!-- Page -->
+    <link rel="stylesheet" href="assets/vendor/css/pages/page-auth.css" />
+
+    <!-- Helpers -->
+    <script src="assets/vendor/js/helpers.js"></script>
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
+    <script src="assets/vendor/js/template-customizer.js"></script>
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+    <script src="assets/js/config.js"></script>
+    <link rel="stylesheet" type="text/css" href="alertifyjs/css/alertify.css">
+    <link rel="stylesheet" type="text/css" href="alertifyjs/css/themes/default.css">
+    <link rel="stylesheet" href="alertifyjs/css/alertify.css" />
+    <link rel="stylesheet" type="text/css" href="alertifyjs/css/themes/default.css">
+    <link rel="stylesheet" href="sweetalert2-11.7.20/package/dist/sweetalert2.css">
+  </head>
+
+  <body>
+    <!-- Content -->
+
+    <div class="container-xxl">
+      <div class="authentication-wrapper authentication-basic container-p-y">
+        <div class="authentication-inner">
+          <!-- Register -->
+          <div class="card">
+            <div class="card-body">
+              <!-- Logo -->
+              <div class="app-brand justify-content-center">
+                <a href="index.html" class="app-brand-link gap-2">
+                  <span class="app-brand-logo demo">
+                    <center> 
+                    <img src="assets\svg\icons\logodtk.svg"> 
+                  </span>
+                  <span class="app-brand-text demo text-body fw-bold">SmartScan</span>
+                </center> 
+                </a>
+              </div>
+              <!-- /Logo -->
+              <h4 class="mb-2">Bienvenido a SmartScan! 👋</h4>
+              <p class="mb-4">Por favor inicie session con su cuenta de microsoft en el dominio detektor</p>
+
+   
+                <div class="mb-3">
+                  <button class="btn btn-primary d-grid w-100" id="microsoft_login">
+                      <i class="tf-icons bx bxl-microsoft"></i> Iniciar Sesión
+                  </button>
+              </div>
+        
+
+           
+            </div>
+          </div>
+          <!-- /Register -->
+        </div>
+      </div>
+    </div>
+
+    <!-- / Content -->
+
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+
+    <script src="assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="assets/vendor/libs/popper/popper.js"></script>
+    <script src="assets/vendor/js/bootstrap.js"></script>
+    <script src="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="assets/vendor/libs/hammer/hammer.js"></script>
+    <script src="assets/vendor/libs/i18n/i18n.js"></script>
+    <script src="assets/vendor/libs/typeahead-js/typeahead.js"></script>
+    <script src="assets/vendor/js/menu.js"></script>
+
+    <!-- endbuild -->
+
+    <!-- Vendors JS -->
+    <script src="assets/vendor/libs/@form-validation/popular.js"></script>
+    <script src="assets/vendor/libs/@form-validation/bootstrap5.js"></script>
+    <script src="assets/vendor/libs/@form-validation/auto-focus.js"></script>
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+    <script src="sweetalert2-11.7.20/package/dist/sweetalert2.js"></script>
+    <script src="alertifyjs/alertify.js"></script>
+
+    <!-- Page JS -->
+    <script src="assets/js/pages-auth.js"></script>
+  </body>
+</html>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+<script>
+  //connect to the web socket when the page is ready.
+  $( document ).ready(function() {
+      b4j_connect("/LoginRegister");
+  });
+
+
+
+  function signInWithGoogle() {
+var provider = new firebase.auth.GoogleAuthProvider();
+firebase.auth().signInWithPopup(provider)
+.then((result) => {
+firebase.auth().currentUser.getIdToken(true).then(function(idToken) {
+    var token = idToken;
+    b4j_raiseEvent('event_register', {tk:token});
+}).catch(function(error) {
+
+});
+})
+.catch((error) => { 
+
+});
+}
+
+
+function signInWithMicrosoft() {
+    var provider = new firebase.auth.OAuthProvider('microsoft.com');
+    provider.setCustomParameters({
+  prompt: 'consent', // Forzar el consentimiento de usuario
+  tenant: 'a5f3c9b6-8337-45d2-adfd-96a48858665e' // Opcional: Especificar el ID del tenant de Azure AD
+});
+    firebase.auth().signInWithPopup(provider)
+    .then((result) => {
+        // Puedes obtener el token de ID desde el resultado
+        result.user.getIdToken(true).then(function(idToken) {
+            var token = idToken;
+            b4j_raiseEvent('event_register', {tk: token});
+        }).catch(function(error) {
+            console.error("Error al obtener el token de ID:", error);
+        });
+    })
+    .catch((error) => {
+        console.error("Error al iniciar sesión con Microsoft:", error);
+    });
+}
+
+
+
+
+
+
+
+</script>

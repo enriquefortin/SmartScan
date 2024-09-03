@@ -3371,35 +3371,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background jhs.atr:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit jhs.atr:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked jhs.atr:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd jhs.atr:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions jhs.atr:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft jhs.atr:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight jhs.atr:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart jhs.atr:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation jhs.atr:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout jhs.atr:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions jhs.atr:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider jhs.atr:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation jhs.atr:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height jhs.atr:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll jhs.atr:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator jhs.atr:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout jhs.atr:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon jhs.atr:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle jhs.atr:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding jhs.atr:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo jhs.atr:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode jhs.atr:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme jhs.atr:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding jhs.atr:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle jhs.atr:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle jhs.atr:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle jhs.atr:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title jhs.atr:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle jhs.atr:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.detektor.smartscan:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.detektor.smartscan:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.detektor.smartscan:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.detektor.smartscan:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.detektor.smartscan:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.detektor.smartscan:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.detektor.smartscan:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.detektor.smartscan:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.detektor.smartscan:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.detektor.smartscan:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.detektor.smartscan:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.detektor.smartscan:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.detektor.smartscan:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.detektor.smartscan:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.detektor.smartscan:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.detektor.smartscan:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.detektor.smartscan:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.detektor.smartscan:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.detektor.smartscan:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.detektor.smartscan:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.detektor.smartscan:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.detektor.smartscan:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.detektor.smartscan:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.detektor.smartscan:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.detektor.smartscan:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.detektor.smartscan:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.detektor.smartscan:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.detektor.smartscan:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.detektor.smartscan:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -3442,7 +3442,7 @@ public final class R {
       0x7f030112
     };
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3450,11 +3450,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:background
+     * @attr name com.detektor.smartscan:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3465,11 +3465,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:backgroundSplit
+     * @attr name com.detektor.smartscan:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3480,11 +3480,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:backgroundStacked
+     * @attr name com.detektor.smartscan:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3493,11 +3493,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:contentInsetEnd
+     * @attr name com.detektor.smartscan:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3506,11 +3506,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:contentInsetEndWithActions
+     * @attr name com.detektor.smartscan:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3519,11 +3519,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:contentInsetLeft
+     * @attr name com.detektor.smartscan:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3532,11 +3532,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:contentInsetRight
+     * @attr name com.detektor.smartscan:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3545,11 +3545,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:contentInsetStart
+     * @attr name com.detektor.smartscan:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3558,11 +3558,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:contentInsetStartWithNavigation
+     * @attr name com.detektor.smartscan:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3570,11 +3570,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:customNavigationLayout
+     * @attr name com.detektor.smartscan:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -3592,11 +3592,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jhs.atr:displayOptions
+     * @attr name com.detektor.smartscan:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3604,11 +3604,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:divider
+     * @attr name com.detektor.smartscan:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3617,11 +3617,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:elevation
+     * @attr name com.detektor.smartscan:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3630,21 +3630,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:height
+     * @attr name com.detektor.smartscan:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:hideOnContentScroll
+     * @attr name com.detektor.smartscan:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3652,11 +3652,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:homeAsUpIndicator
+     * @attr name com.detektor.smartscan:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3664,11 +3664,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:homeLayout
+     * @attr name com.detektor.smartscan:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3676,11 +3676,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:icon
+     * @attr name com.detektor.smartscan:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3688,11 +3688,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:indeterminateProgressStyle
+     * @attr name com.detektor.smartscan:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3701,11 +3701,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:itemPadding
+     * @attr name com.detektor.smartscan:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3713,11 +3713,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:logo
+     * @attr name com.detektor.smartscan:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -3731,11 +3731,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td>The action bar will use a series of horizontal tabs for navigation.</td></tr>
      * </table>
      *
-     * @attr name jhs.atr:navigationMode
+     * @attr name com.detektor.smartscan:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3743,11 +3743,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:popupTheme
+     * @attr name com.detektor.smartscan:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3756,11 +3756,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:progressBarPadding
+     * @attr name com.detektor.smartscan:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3768,21 +3768,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:progressBarStyle
+     * @attr name com.detektor.smartscan:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:subtitle
+     * @attr name com.detektor.smartscan:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3790,21 +3790,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:subtitleTextStyle
+     * @attr name com.detektor.smartscan:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:title
+     * @attr name com.detektor.smartscan:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3812,7 +3812,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:titleTextStyle
+     * @attr name com.detektor.smartscan:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -3894,12 +3894,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background jhs.atr:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit jhs.atr:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout jhs.atr:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height jhs.atr:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle jhs.atr:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle jhs.atr:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.detektor.smartscan:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.detektor.smartscan:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.detektor.smartscan:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.detektor.smartscan:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.detektor.smartscan:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.detektor.smartscan:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -3913,7 +3913,7 @@ public final class R {
       0x7f0300ed, 0x7f030112
     };
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3921,11 +3921,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:background
+     * @attr name com.detektor.smartscan:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3936,11 +3936,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:backgroundSplit
+     * @attr name com.detektor.smartscan:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3948,11 +3948,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:closeItemLayout
+     * @attr name com.detektor.smartscan:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3961,11 +3961,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:height
+     * @attr name com.detektor.smartscan:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3973,11 +3973,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:subtitleTextStyle
+     * @attr name com.detektor.smartscan:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3985,7 +3985,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:titleTextStyle
+     * @attr name com.detektor.smartscan:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -3995,8 +3995,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable jhs.atr:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount jhs.atr:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.detektor.smartscan:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.detektor.smartscan:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -4005,7 +4005,7 @@ public final class R {
       0x7f030083, 0x7f03009f
     };
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4013,17 +4013,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:expandActivityOverflowButtonDrawable
+     * @attr name com.detektor.smartscan:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:initialActivityCount
+     * @attr name com.detektor.smartscan:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -4034,13 +4034,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen jhs.atr:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout jhs.atr:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout jhs.atr:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout jhs.atr:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout jhs.atr:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle jhs.atr:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout jhs.atr:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.detektor.smartscan:buttonIconDimen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.detektor.smartscan:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.detektor.smartscan:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.detektor.smartscan:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.detektor.smartscan:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.detektor.smartscan:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.detektor.smartscan:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonIconDimen
@@ -4068,7 +4068,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#buttonIconDimen}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#buttonIconDimen}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4077,11 +4077,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:buttonIconDimen
+     * @attr name com.detektor.smartscan:buttonIconDimen
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4089,11 +4089,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:buttonPanelSideLayout
+     * @attr name com.detektor.smartscan:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4101,11 +4101,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:listItemLayout
+     * @attr name com.detektor.smartscan:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4113,11 +4113,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:listLayout
+     * @attr name com.detektor.smartscan:listLayout
      */
     public static final int AlertDialog_listLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4125,21 +4125,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:multiChoiceItemLayout
+     * @attr name com.detektor.smartscan:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:showTitle
+     * @attr name com.detektor.smartscan:showTitle
      */
     public static final int AlertDialog_showTitle=6;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4147,7 +4147,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:singleChoiceItemLayout
+     * @attr name com.detektor.smartscan:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
@@ -4349,9 +4349,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat jhs.atr:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint jhs.atr:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode jhs.atr:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.detektor.smartscan:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.detektor.smartscan:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.detektor.smartscan:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -4377,7 +4377,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4385,22 +4385,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:srcCompat
+     * @attr name com.detektor.smartscan:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#tint}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:tint
+     * @attr name com.detektor.smartscan:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4422,7 +4422,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name jhs.atr:tintMode
+     * @attr name com.detektor.smartscan:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -4433,9 +4433,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark jhs.atr:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint jhs.atr:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode jhs.atr:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.detektor.smartscan:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.detektor.smartscan:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.detektor.smartscan:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -4458,7 +4458,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4466,22 +4466,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:tickMark
+     * @attr name com.detektor.smartscan:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:tickMarkTint
+     * @attr name com.detektor.smartscan:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4503,7 +4503,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name jhs.atr:tickMarkTintMode
+     * @attr name com.detektor.smartscan:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -4643,27 +4643,27 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize jhs.atr:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize jhs.atr:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes jhs.atr:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity jhs.atr:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType jhs.atr:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableBottomCompat jhs.atr:drawableBottomCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableEndCompat jhs.atr:drawableEndCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableLeftCompat jhs.atr:drawableLeftCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableRightCompat jhs.atr:drawableRightCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableStartCompat jhs.atr:drawableStartCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableTint jhs.atr:drawableTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableTintMode jhs.atr:drawableTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableTopCompat jhs.atr:drawableTopCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_emojiCompatEnabled jhs.atr:emojiCompatEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight jhs.atr:firstBaselineToTopHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily jhs.atr:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontVariationSettings jhs.atr:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight jhs.atr:lastBaselineToBottomHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lineHeight jhs.atr:lineHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps jhs.atr:textAllCaps}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textLocale jhs.atr:textLocale}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.detektor.smartscan:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.detektor.smartscan:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.detektor.smartscan:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.detektor.smartscan:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.detektor.smartscan:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableBottomCompat com.detektor.smartscan:drawableBottomCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableEndCompat com.detektor.smartscan:drawableEndCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableLeftCompat com.detektor.smartscan:drawableLeftCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableRightCompat com.detektor.smartscan:drawableRightCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableStartCompat com.detektor.smartscan:drawableStartCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableTint com.detektor.smartscan:drawableTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableTintMode com.detektor.smartscan:drawableTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableTopCompat com.detektor.smartscan:drawableTopCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_emojiCompatEnabled com.detektor.smartscan:emojiCompatEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight com.detektor.smartscan:firstBaselineToTopHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.detektor.smartscan:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontVariationSettings com.detektor.smartscan:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.detektor.smartscan:lastBaselineToBottomHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lineHeight com.detektor.smartscan:lineHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.detektor.smartscan:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textLocale com.detektor.smartscan:textLocale}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -4709,7 +4709,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4718,11 +4718,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:autoSizeMaxTextSize
+     * @attr name com.detektor.smartscan:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4731,11 +4731,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:autoSizeMinTextSize
+     * @attr name com.detektor.smartscan:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4743,11 +4743,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:autoSizePresetSizes
+     * @attr name com.detektor.smartscan:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4756,11 +4756,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:autoSizeStepGranularity
+     * @attr name com.detektor.smartscan:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4774,11 +4774,11 @@ public final class R {
      * container.</td></tr>
      * </table>
      *
-     * @attr name jhs.atr:autoSizeTextType
+     * @attr name com.detektor.smartscan:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#drawableBottomCompat}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#drawableBottomCompat}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4786,11 +4786,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:drawableBottomCompat
+     * @attr name com.detektor.smartscan:drawableBottomCompat
      */
     public static final int AppCompatTextView_drawableBottomCompat=6;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#drawableEndCompat}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#drawableEndCompat}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4798,11 +4798,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:drawableEndCompat
+     * @attr name com.detektor.smartscan:drawableEndCompat
      */
     public static final int AppCompatTextView_drawableEndCompat=7;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#drawableLeftCompat}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#drawableLeftCompat}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4810,11 +4810,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:drawableLeftCompat
+     * @attr name com.detektor.smartscan:drawableLeftCompat
      */
     public static final int AppCompatTextView_drawableLeftCompat=8;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#drawableRightCompat}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#drawableRightCompat}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4822,11 +4822,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:drawableRightCompat
+     * @attr name com.detektor.smartscan:drawableRightCompat
      */
     public static final int AppCompatTextView_drawableRightCompat=9;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#drawableStartCompat}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#drawableStartCompat}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4834,22 +4834,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:drawableStartCompat
+     * @attr name com.detektor.smartscan:drawableStartCompat
      */
     public static final int AppCompatTextView_drawableStartCompat=10;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#drawableTint}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#drawableTint}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:drawableTint
+     * @attr name com.detektor.smartscan:drawableTint
      */
     public static final int AppCompatTextView_drawableTint=11;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#drawableTintMode}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#drawableTintMode}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4871,11 +4871,11 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name jhs.atr:drawableTintMode
+     * @attr name com.detektor.smartscan:drawableTintMode
      */
     public static final int AppCompatTextView_drawableTintMode=12;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#drawableTopCompat}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#drawableTopCompat}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4883,21 +4883,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:drawableTopCompat
+     * @attr name com.detektor.smartscan:drawableTopCompat
      */
     public static final int AppCompatTextView_drawableTopCompat=13;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#emojiCompatEnabled}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#emojiCompatEnabled}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:emojiCompatEnabled
+     * @attr name com.detektor.smartscan:emojiCompatEnabled
      */
     public static final int AppCompatTextView_emojiCompatEnabled=14;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#firstBaselineToTopHeight}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#firstBaselineToTopHeight}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4906,31 +4906,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:firstBaselineToTopHeight
+     * @attr name com.detektor.smartscan:firstBaselineToTopHeight
      */
     public static final int AppCompatTextView_firstBaselineToTopHeight=15;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:fontFamily
+     * @attr name com.detektor.smartscan:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=16;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#fontVariationSettings}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#fontVariationSettings}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:fontVariationSettings
+     * @attr name com.detektor.smartscan:fontVariationSettings
      */
     public static final int AppCompatTextView_fontVariationSettings=17;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#lastBaselineToBottomHeight}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#lastBaselineToBottomHeight}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4939,11 +4939,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:lastBaselineToBottomHeight
+     * @attr name com.detektor.smartscan:lastBaselineToBottomHeight
      */
     public static final int AppCompatTextView_lastBaselineToBottomHeight=18;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#lineHeight}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#lineHeight}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4952,11 +4952,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:lineHeight
+     * @attr name com.detektor.smartscan:lineHeight
      */
     public static final int AppCompatTextView_lineHeight=19;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4966,17 +4966,17 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:textAllCaps
+     * @attr name com.detektor.smartscan:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=20;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#textLocale}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#textLocale}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:textLocale
+     * @attr name com.detektor.smartscan:textLocale
      */
     public static final int AppCompatTextView_textLocale=21;
     /**
@@ -4988,131 +4988,131 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider jhs.atr:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground jhs.atr:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme jhs.atr:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize jhs.atr:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle jhs.atr:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle jhs.atr:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle jhs.atr:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle jhs.atr:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle jhs.atr:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme jhs.atr:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme jhs.atr:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle jhs.atr:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle jhs.atr:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance jhs.atr:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor jhs.atr:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground jhs.atr:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle jhs.atr:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseContentDescription jhs.atr:actionModeCloseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable jhs.atr:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable jhs.atr:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable jhs.atr:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable jhs.atr:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable jhs.atr:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle jhs.atr:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable jhs.atr:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable jhs.atr:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground jhs.atr:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle jhs.atr:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeTheme jhs.atr:actionModeTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable jhs.atr:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle jhs.atr:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle jhs.atr:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle jhs.atr:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle jhs.atr:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons jhs.atr:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle jhs.atr:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme jhs.atr:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle jhs.atr:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle jhs.atr:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle jhs.atr:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle jhs.atr:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle jhs.atr:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle jhs.atr:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle jhs.atr:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle jhs.atr:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall jhs.atr:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle jhs.atr:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle jhs.atr:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent jhs.atr:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating jhs.atr:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal jhs.atr:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated jhs.atr:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight jhs.atr:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal jhs.atr:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError jhs.atr:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary jhs.atr:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark jhs.atr:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal jhs.atr:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground jhs.atr:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius jhs.atr:dialogCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding jhs.atr:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme jhs.atr:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal jhs.atr:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical jhs.atr:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle jhs.atr:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight jhs.atr:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground jhs.atr:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor jhs.atr:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle jhs.atr:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator jhs.atr:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle jhs.atr:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator jhs.atr:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorMultipleAnimated jhs.atr:listChoiceIndicatorMultipleAnimated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorSingleAnimated jhs.atr:listChoiceIndicatorSingleAnimated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog jhs.atr:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle jhs.atr:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle jhs.atr:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight jhs.atr:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge jhs.atr:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall jhs.atr:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingEnd jhs.atr:listPreferredItemPaddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft jhs.atr:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight jhs.atr:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingStart jhs.atr:listPreferredItemPaddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground jhs.atr:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme jhs.atr:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth jhs.atr:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle jhs.atr:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle jhs.atr:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle jhs.atr:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle jhs.atr:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator jhs.atr:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall jhs.atr:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle jhs.atr:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle jhs.atr:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground jhs.atr:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless jhs.atr:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle jhs.atr:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle jhs.atr:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle jhs.atr:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu jhs.atr:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem jhs.atr:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary jhs.atr:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall jhs.atr:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader jhs.atr:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle jhs.atr:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle jhs.atr:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu jhs.atr:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem jhs.atr:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl jhs.atr:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle jhs.atr:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle jhs.atr:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor jhs.atr:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground jhs.atr:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass jhs.atr:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar jhs.atr:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay jhs.atr:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay jhs.atr:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor jhs.atr:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor jhs.atr:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor jhs.atr:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor jhs.atr:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor jhs.atr:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor jhs.atr:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle jhs.atr:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.detektor.smartscan:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.detektor.smartscan:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.detektor.smartscan:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.detektor.smartscan:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.detektor.smartscan:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.detektor.smartscan:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.detektor.smartscan:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.detektor.smartscan:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.detektor.smartscan:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.detektor.smartscan:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.detektor.smartscan:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.detektor.smartscan:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.detektor.smartscan:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.detektor.smartscan:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.detektor.smartscan:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.detektor.smartscan:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.detektor.smartscan:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseContentDescription com.detektor.smartscan:actionModeCloseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.detektor.smartscan:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.detektor.smartscan:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.detektor.smartscan:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.detektor.smartscan:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.detektor.smartscan:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.detektor.smartscan:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.detektor.smartscan:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.detektor.smartscan:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.detektor.smartscan:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.detektor.smartscan:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeTheme com.detektor.smartscan:actionModeTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.detektor.smartscan:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.detektor.smartscan:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.detektor.smartscan:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.detektor.smartscan:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.detektor.smartscan:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.detektor.smartscan:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.detektor.smartscan:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.detektor.smartscan:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.detektor.smartscan:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.detektor.smartscan:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.detektor.smartscan:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.detektor.smartscan:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.detektor.smartscan:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.detektor.smartscan:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.detektor.smartscan:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.detektor.smartscan:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.detektor.smartscan:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.detektor.smartscan:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.detektor.smartscan:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.detektor.smartscan:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.detektor.smartscan:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.detektor.smartscan:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.detektor.smartscan:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.detektor.smartscan:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.detektor.smartscan:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.detektor.smartscan:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.detektor.smartscan:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.detektor.smartscan:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.detektor.smartscan:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.detektor.smartscan:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius com.detektor.smartscan:dialogCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.detektor.smartscan:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.detektor.smartscan:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.detektor.smartscan:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.detektor.smartscan:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.detektor.smartscan:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.detektor.smartscan:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.detektor.smartscan:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.detektor.smartscan:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.detektor.smartscan:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.detektor.smartscan:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.detektor.smartscan:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.detektor.smartscan:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorMultipleAnimated com.detektor.smartscan:listChoiceIndicatorMultipleAnimated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorSingleAnimated com.detektor.smartscan:listChoiceIndicatorSingleAnimated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.detektor.smartscan:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.detektor.smartscan:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.detektor.smartscan:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.detektor.smartscan:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.detektor.smartscan:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.detektor.smartscan:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingEnd com.detektor.smartscan:listPreferredItemPaddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.detektor.smartscan:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.detektor.smartscan:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingStart com.detektor.smartscan:listPreferredItemPaddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.detektor.smartscan:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.detektor.smartscan:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.detektor.smartscan:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.detektor.smartscan:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.detektor.smartscan:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.detektor.smartscan:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.detektor.smartscan:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.detektor.smartscan:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.detektor.smartscan:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.detektor.smartscan:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.detektor.smartscan:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.detektor.smartscan:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.detektor.smartscan:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.detektor.smartscan:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.detektor.smartscan:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.detektor.smartscan:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.detektor.smartscan:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.detektor.smartscan:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.detektor.smartscan:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.detektor.smartscan:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.detektor.smartscan:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.detektor.smartscan:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.detektor.smartscan:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.detektor.smartscan:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.detektor.smartscan:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.detektor.smartscan:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.detektor.smartscan:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.detektor.smartscan:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.detektor.smartscan:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.detektor.smartscan:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.detektor.smartscan:viewInflaterClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.detektor.smartscan:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.detektor.smartscan:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.detektor.smartscan:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.detektor.smartscan:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.detektor.smartscan:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.detektor.smartscan:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.detektor.smartscan:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.detektor.smartscan:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.detektor.smartscan:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.detektor.smartscan:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -5299,7 +5299,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5307,11 +5307,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionBarDivider
+     * @attr name com.detektor.smartscan:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5319,11 +5319,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionBarItemBackground
+     * @attr name com.detektor.smartscan:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5331,11 +5331,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionBarPopupTheme
+     * @attr name com.detektor.smartscan:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5352,11 +5352,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jhs.atr:actionBarSize
+     * @attr name com.detektor.smartscan:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5364,11 +5364,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionBarSplitStyle
+     * @attr name com.detektor.smartscan:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5376,11 +5376,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionBarStyle
+     * @attr name com.detektor.smartscan:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5388,11 +5388,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionBarTabBarStyle
+     * @attr name com.detektor.smartscan:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5400,11 +5400,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionBarTabStyle
+     * @attr name com.detektor.smartscan:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5412,11 +5412,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionBarTabTextStyle
+     * @attr name com.detektor.smartscan:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5424,11 +5424,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionBarTheme
+     * @attr name com.detektor.smartscan:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5436,11 +5436,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionBarWidgetTheme
+     * @attr name com.detektor.smartscan:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5448,11 +5448,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionButtonStyle
+     * @attr name com.detektor.smartscan:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5460,11 +5460,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionDropDownStyle
+     * @attr name com.detektor.smartscan:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5472,11 +5472,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionMenuTextAppearance
+     * @attr name com.detektor.smartscan:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5487,11 +5487,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:actionMenuTextColor
+     * @attr name com.detektor.smartscan:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5499,11 +5499,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionModeBackground
+     * @attr name com.detektor.smartscan:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5511,21 +5511,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionModeCloseButtonStyle
+     * @attr name com.detektor.smartscan:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionModeCloseContentDescription}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionModeCloseContentDescription}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:actionModeCloseContentDescription
+     * @attr name com.detektor.smartscan:actionModeCloseContentDescription
      */
     public static final int AppCompatTheme_actionModeCloseContentDescription=19;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5533,11 +5533,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionModeCloseDrawable
+     * @attr name com.detektor.smartscan:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5545,11 +5545,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionModeCopyDrawable
+     * @attr name com.detektor.smartscan:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5557,11 +5557,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionModeCutDrawable
+     * @attr name com.detektor.smartscan:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5569,11 +5569,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionModeFindDrawable
+     * @attr name com.detektor.smartscan:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5581,11 +5581,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionModePasteDrawable
+     * @attr name com.detektor.smartscan:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=24;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5593,11 +5593,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionModePopupWindowStyle
+     * @attr name com.detektor.smartscan:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=25;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5605,11 +5605,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionModeSelectAllDrawable
+     * @attr name com.detektor.smartscan:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5617,11 +5617,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionModeShareDrawable
+     * @attr name com.detektor.smartscan:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=27;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5629,11 +5629,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionModeSplitBackground
+     * @attr name com.detektor.smartscan:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=28;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5641,11 +5641,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionModeStyle
+     * @attr name com.detektor.smartscan:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=29;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionModeTheme}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionModeTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5653,11 +5653,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionModeTheme
+     * @attr name com.detektor.smartscan:actionModeTheme
      */
     public static final int AppCompatTheme_actionModeTheme=30;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5665,11 +5665,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionModeWebSearchDrawable
+     * @attr name com.detektor.smartscan:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=31;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5677,11 +5677,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionOverflowButtonStyle
+     * @attr name com.detektor.smartscan:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5689,11 +5689,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionOverflowMenuStyle
+     * @attr name com.detektor.smartscan:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5701,11 +5701,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:activityChooserViewStyle
+     * @attr name com.detektor.smartscan:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=34;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5713,21 +5713,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:alertDialogButtonGroupStyle
+     * @attr name com.detektor.smartscan:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:alertDialogCenterButtons
+     * @attr name com.detektor.smartscan:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=36;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5735,11 +5735,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:alertDialogStyle
+     * @attr name com.detektor.smartscan:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5747,11 +5747,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:alertDialogTheme
+     * @attr name com.detektor.smartscan:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=38;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5759,11 +5759,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:autoCompleteTextViewStyle
+     * @attr name com.detektor.smartscan:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5771,11 +5771,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:borderlessButtonStyle
+     * @attr name com.detektor.smartscan:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5783,11 +5783,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:buttonBarButtonStyle
+     * @attr name com.detektor.smartscan:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5795,11 +5795,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:buttonBarNegativeButtonStyle
+     * @attr name com.detektor.smartscan:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5807,11 +5807,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:buttonBarNeutralButtonStyle
+     * @attr name com.detektor.smartscan:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5819,11 +5819,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:buttonBarPositiveButtonStyle
+     * @attr name com.detektor.smartscan:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5831,11 +5831,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:buttonBarStyle
+     * @attr name com.detektor.smartscan:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=45;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5843,11 +5843,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:buttonStyle
+     * @attr name com.detektor.smartscan:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5855,11 +5855,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:buttonStyleSmall
+     * @attr name com.detektor.smartscan:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=47;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5867,11 +5867,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:checkboxStyle
+     * @attr name com.detektor.smartscan:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=48;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5879,77 +5879,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:checkedTextViewStyle
+     * @attr name com.detektor.smartscan:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=49;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:colorAccent
+     * @attr name com.detektor.smartscan:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=50;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:colorBackgroundFloating
+     * @attr name com.detektor.smartscan:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=51;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:colorButtonNormal
+     * @attr name com.detektor.smartscan:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=52;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:colorControlActivated
+     * @attr name com.detektor.smartscan:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=53;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:colorControlHighlight
+     * @attr name com.detektor.smartscan:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=54;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:colorControlNormal
+     * @attr name com.detektor.smartscan:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=55;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5960,44 +5960,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:colorError
+     * @attr name com.detektor.smartscan:colorError
      */
     public static final int AppCompatTheme_colorError=56;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:colorPrimary
+     * @attr name com.detektor.smartscan:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=57;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:colorPrimaryDark
+     * @attr name com.detektor.smartscan:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=58;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:colorSwitchThumbNormal
+     * @attr name com.detektor.smartscan:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=59;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6005,11 +6005,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:controlBackground
+     * @attr name com.detektor.smartscan:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=60;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#dialogCornerRadius}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#dialogCornerRadius}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6018,11 +6018,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:dialogCornerRadius
+     * @attr name com.detektor.smartscan:dialogCornerRadius
      */
     public static final int AppCompatTheme_dialogCornerRadius=61;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6031,11 +6031,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:dialogPreferredPadding
+     * @attr name com.detektor.smartscan:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=62;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6043,11 +6043,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:dialogTheme
+     * @attr name com.detektor.smartscan:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=63;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6055,11 +6055,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:dividerHorizontal
+     * @attr name com.detektor.smartscan:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=64;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6067,11 +6067,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:dividerVertical
+     * @attr name com.detektor.smartscan:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=65;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6079,11 +6079,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:dropDownListViewStyle
+     * @attr name com.detektor.smartscan:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=66;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6092,11 +6092,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:dropdownListPreferredItemHeight
+     * @attr name com.detektor.smartscan:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=67;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6104,11 +6104,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:editTextBackground
+     * @attr name com.detektor.smartscan:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=68;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6119,11 +6119,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:editTextColor
+     * @attr name com.detektor.smartscan:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=69;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6131,11 +6131,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:editTextStyle
+     * @attr name com.detektor.smartscan:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=70;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6143,11 +6143,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:homeAsUpIndicator
+     * @attr name com.detektor.smartscan:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=71;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6155,11 +6155,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:imageButtonStyle
+     * @attr name com.detektor.smartscan:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6167,11 +6167,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:listChoiceBackgroundIndicator
+     * @attr name com.detektor.smartscan:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=73;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#listChoiceIndicatorMultipleAnimated}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#listChoiceIndicatorMultipleAnimated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6179,11 +6179,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:listChoiceIndicatorMultipleAnimated
+     * @attr name com.detektor.smartscan:listChoiceIndicatorMultipleAnimated
      */
     public static final int AppCompatTheme_listChoiceIndicatorMultipleAnimated=74;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#listChoiceIndicatorSingleAnimated}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#listChoiceIndicatorSingleAnimated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6191,11 +6191,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:listChoiceIndicatorSingleAnimated
+     * @attr name com.detektor.smartscan:listChoiceIndicatorSingleAnimated
      */
     public static final int AppCompatTheme_listChoiceIndicatorSingleAnimated=75;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6203,11 +6203,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:listDividerAlertDialog
+     * @attr name com.detektor.smartscan:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=76;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6215,11 +6215,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:listMenuViewStyle
+     * @attr name com.detektor.smartscan:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=77;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6227,11 +6227,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:listPopupWindowStyle
+     * @attr name com.detektor.smartscan:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=78;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6240,11 +6240,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:listPreferredItemHeight
+     * @attr name com.detektor.smartscan:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=79;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6253,11 +6253,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:listPreferredItemHeightLarge
+     * @attr name com.detektor.smartscan:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=80;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6266,11 +6266,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:listPreferredItemHeightSmall
+     * @attr name com.detektor.smartscan:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=81;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#listPreferredItemPaddingEnd}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#listPreferredItemPaddingEnd}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6279,11 +6279,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:listPreferredItemPaddingEnd
+     * @attr name com.detektor.smartscan:listPreferredItemPaddingEnd
      */
     public static final int AppCompatTheme_listPreferredItemPaddingEnd=82;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6292,11 +6292,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:listPreferredItemPaddingLeft
+     * @attr name com.detektor.smartscan:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=83;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6305,11 +6305,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:listPreferredItemPaddingRight
+     * @attr name com.detektor.smartscan:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=84;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#listPreferredItemPaddingStart}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#listPreferredItemPaddingStart}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6318,11 +6318,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:listPreferredItemPaddingStart
+     * @attr name com.detektor.smartscan:listPreferredItemPaddingStart
      */
     public static final int AppCompatTheme_listPreferredItemPaddingStart=85;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6330,11 +6330,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:panelBackground
+     * @attr name com.detektor.smartscan:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=86;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6342,11 +6342,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:panelMenuListTheme
+     * @attr name com.detektor.smartscan:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=87;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6355,11 +6355,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:panelMenuListWidth
+     * @attr name com.detektor.smartscan:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=88;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6367,11 +6367,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:popupMenuStyle
+     * @attr name com.detektor.smartscan:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6379,11 +6379,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:popupWindowStyle
+     * @attr name com.detektor.smartscan:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=90;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6391,11 +6391,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:radioButtonStyle
+     * @attr name com.detektor.smartscan:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=91;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6403,11 +6403,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:ratingBarStyle
+     * @attr name com.detektor.smartscan:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6415,11 +6415,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:ratingBarStyleIndicator
+     * @attr name com.detektor.smartscan:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=93;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6427,11 +6427,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:ratingBarStyleSmall
+     * @attr name com.detektor.smartscan:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=94;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6439,11 +6439,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:searchViewStyle
+     * @attr name com.detektor.smartscan:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=95;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6451,11 +6451,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:seekBarStyle
+     * @attr name com.detektor.smartscan:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=96;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6463,11 +6463,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:selectableItemBackground
+     * @attr name com.detektor.smartscan:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=97;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6475,11 +6475,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:selectableItemBackgroundBorderless
+     * @attr name com.detektor.smartscan:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=98;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6487,11 +6487,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:spinnerDropDownItemStyle
+     * @attr name com.detektor.smartscan:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=99;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6499,11 +6499,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:spinnerStyle
+     * @attr name com.detektor.smartscan:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=100;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6511,11 +6511,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:switchStyle
+     * @attr name com.detektor.smartscan:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=101;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6523,11 +6523,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:textAppearanceLargePopupMenu
+     * @attr name com.detektor.smartscan:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=102;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6535,11 +6535,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:textAppearanceListItem
+     * @attr name com.detektor.smartscan:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=103;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6547,11 +6547,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:textAppearanceListItemSecondary
+     * @attr name com.detektor.smartscan:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=104;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6559,11 +6559,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:textAppearanceListItemSmall
+     * @attr name com.detektor.smartscan:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=105;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6571,11 +6571,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:textAppearancePopupMenuHeader
+     * @attr name com.detektor.smartscan:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=106;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6583,11 +6583,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:textAppearanceSearchResultSubtitle
+     * @attr name com.detektor.smartscan:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=107;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6595,11 +6595,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:textAppearanceSearchResultTitle
+     * @attr name com.detektor.smartscan:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=108;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6607,11 +6607,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:textAppearanceSmallPopupMenu
+     * @attr name com.detektor.smartscan:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=109;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6622,11 +6622,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:textColorAlertDialogListItem
+     * @attr name com.detektor.smartscan:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=110;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6637,11 +6637,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:textColorSearchUrl
+     * @attr name com.detektor.smartscan:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=111;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6649,11 +6649,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:toolbarNavigationButtonStyle
+     * @attr name com.detektor.smartscan:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=112;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6661,11 +6661,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:toolbarStyle
+     * @attr name com.detektor.smartscan:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=113;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6676,11 +6676,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:tooltipForegroundColor
+     * @attr name com.detektor.smartscan:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=114;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6688,51 +6688,51 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:tooltipFrameBackground
+     * @attr name com.detektor.smartscan:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=115;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#viewInflaterClass}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:viewInflaterClass
+     * @attr name com.detektor.smartscan:viewInflaterClass
      */
     public static final int AppCompatTheme_viewInflaterClass=116;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:windowActionBar
+     * @attr name com.detektor.smartscan:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=117;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:windowActionBarOverlay
+     * @attr name com.detektor.smartscan:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=118;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:windowActionModeOverlay
+     * @attr name com.detektor.smartscan:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=119;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6745,11 +6745,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name jhs.atr:windowFixedHeightMajor
+     * @attr name com.detektor.smartscan:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=120;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6762,11 +6762,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name jhs.atr:windowFixedHeightMinor
+     * @attr name com.detektor.smartscan:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=121;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6779,11 +6779,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name jhs.atr:windowFixedWidthMajor
+     * @attr name com.detektor.smartscan:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=122;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6796,11 +6796,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name jhs.atr:windowFixedWidthMinor
+     * @attr name com.detektor.smartscan:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=123;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6813,11 +6813,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name jhs.atr:windowMinWidthMajor
+     * @attr name com.detektor.smartscan:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=124;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6830,17 +6830,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name jhs.atr:windowMinWidthMinor
+     * @attr name com.detektor.smartscan:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=125;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:windowNoTitle
+     * @attr name com.detektor.smartscan:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=126;
     /**
@@ -6850,7 +6850,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking jhs.atr:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.detektor.smartscan:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -6858,13 +6858,13 @@ public final class R {
       0x7f030028
     };
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:allowStacking
+     * @attr name com.detektor.smartscan:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -6874,8 +6874,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #Capability_queryPatterns jhs.atr:queryPatterns}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Capability_shortcutMatchRequired jhs.atr:shortcutMatchRequired}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Capability_queryPatterns com.detektor.smartscan:queryPatterns}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Capability_shortcutMatchRequired com.detektor.smartscan:shortcutMatchRequired}</code></td><td></td></tr>
      * </table>
      * @see #Capability_queryPatterns
      * @see #Capability_shortcutMatchRequired
@@ -6884,7 +6884,7 @@ public final class R {
       0x7f0300d0, 0x7f0300dc
     };
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#queryPatterns}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#queryPatterns}
      * attribute's value can be found in the {@link #Capability} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6892,17 +6892,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:queryPatterns
+     * @attr name com.detektor.smartscan:queryPatterns
      */
     public static final int Capability_queryPatterns=0;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#shortcutMatchRequired}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#shortcutMatchRequired}
      * attribute's value can be found in the {@link #Capability} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:shortcutMatchRequired
+     * @attr name com.detektor.smartscan:shortcutMatchRequired
      */
     public static final int Capability_shortcutMatchRequired=1;
     /**
@@ -6913,9 +6913,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CheckedTextView_android_checkMark android:checkMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CheckedTextView_checkMarkCompat jhs.atr:checkMarkCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CheckedTextView_checkMarkTint jhs.atr:checkMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CheckedTextView_checkMarkTintMode jhs.atr:checkMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CheckedTextView_checkMarkCompat com.detektor.smartscan:checkMarkCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CheckedTextView_checkMarkTint com.detektor.smartscan:checkMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CheckedTextView_checkMarkTintMode com.detektor.smartscan:checkMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CheckedTextView_android_checkMark
      * @see #CheckedTextView_checkMarkCompat
@@ -6938,7 +6938,7 @@ public final class R {
      */
     public static final int CheckedTextView_android_checkMark=0;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#checkMarkCompat}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#checkMarkCompat}
      * attribute's value can be found in the {@link #CheckedTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6946,22 +6946,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:checkMarkCompat
+     * @attr name com.detektor.smartscan:checkMarkCompat
      */
     public static final int CheckedTextView_checkMarkCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#checkMarkTint}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#checkMarkTint}
      * attribute's value can be found in the {@link #CheckedTextView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:checkMarkTint
+     * @attr name com.detektor.smartscan:checkMarkTint
      */
     public static final int CheckedTextView_checkMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#checkMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#checkMarkTintMode}
      * attribute's value can be found in the {@link #CheckedTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6983,7 +6983,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name jhs.atr:checkMarkTintMode
+     * @attr name com.detektor.smartscan:checkMarkTintMode
      */
     public static final int CheckedTextView_checkMarkTintMode=3;
     /**
@@ -6996,8 +6996,8 @@ public final class R {
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_lStar android:lStar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha jhs.atr:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_lStar jhs.atr:lStar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.detektor.smartscan:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_lStar com.detektor.smartscan:lStar}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -7039,21 +7039,21 @@ public final class R {
      */
     public static final int ColorStateListItem_android_lStar=2;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jhs.atr:alpha
+     * @attr name com.detektor.smartscan:alpha
      */
     public static final int ColorStateListItem_alpha=3;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#lStar}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#lStar}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jhs.atr:lStar
+     * @attr name com.detektor.smartscan:lStar
      */
     public static final int ColorStateListItem_lStar=4;
     /**
@@ -7064,9 +7064,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonCompat jhs.atr:buttonCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint jhs.atr:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode jhs.atr:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonCompat com.detektor.smartscan:buttonCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.detektor.smartscan:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.detektor.smartscan:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonCompat
@@ -7089,7 +7089,7 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#buttonCompat}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#buttonCompat}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7097,22 +7097,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:buttonCompat
+     * @attr name com.detektor.smartscan:buttonCompat
      */
     public static final int CompoundButton_buttonCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:buttonTint
+     * @attr name com.detektor.smartscan:buttonTint
      */
     public static final int CompoundButton_buttonTint=2;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7134,7 +7134,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name jhs.atr:buttonTintMode
+     * @attr name com.detektor.smartscan:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=3;
     /**
@@ -7144,14 +7144,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength jhs.atr:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength jhs.atr:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength jhs.atr:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color jhs.atr:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize jhs.atr:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars jhs.atr:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars jhs.atr:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness jhs.atr:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.detektor.smartscan:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.detektor.smartscan:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.detektor.smartscan:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.detektor.smartscan:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.detektor.smartscan:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.detektor.smartscan:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.detektor.smartscan:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.detektor.smartscan:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -7167,7 +7167,7 @@ public final class R {
       0x7f030075, 0x7f030091, 0x7f0300e2, 0x7f030100
     };
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7176,11 +7176,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:arrowHeadLength
+     * @attr name com.detektor.smartscan:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7189,11 +7189,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:arrowShaftLength
+     * @attr name com.detektor.smartscan:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7202,22 +7202,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:barLength
+     * @attr name com.detektor.smartscan:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:color
+     * @attr name com.detektor.smartscan:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7226,11 +7226,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:drawableSize
+     * @attr name com.detektor.smartscan:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7239,21 +7239,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:gapBetweenBars
+     * @attr name com.detektor.smartscan:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:spinBars
+     * @attr name com.detektor.smartscan:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7262,7 +7262,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:thickness
+     * @attr name com.detektor.smartscan:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -7272,7 +7272,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerLayout_elevation jhs.atr:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerLayout_elevation com.detektor.smartscan:elevation}</code></td><td></td></tr>
      * </table>
      * @see #DrawerLayout_elevation
      */
@@ -7290,7 +7290,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:elevation
+     * @attr name com.detektor.smartscan:elevation
      */
     public static final int DrawerLayout_elevation=0;
     /**
@@ -7300,13 +7300,13 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority jhs.atr:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts jhs.atr:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy jhs.atr:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout jhs.atr:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage jhs.atr:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery jhs.atr:fontProviderQuery}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderSystemFontFamily jhs.atr:fontProviderSystemFontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.detektor.smartscan:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.detektor.smartscan:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.detektor.smartscan:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.detektor.smartscan:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.detektor.smartscan:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.detektor.smartscan:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderSystemFontFamily com.detektor.smartscan:fontProviderSystemFontFamily}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -7321,17 +7321,17 @@ public final class R {
       0x7f03008b, 0x7f03008c, 0x7f03008d
     };
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:fontProviderAuthority
+     * @attr name com.detektor.smartscan:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7339,11 +7339,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:fontProviderCerts
+     * @attr name com.detektor.smartscan:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7364,11 +7364,11 @@ public final class R {
      * default typeface will be used instead.</td></tr>
      * </table>
      *
-     * @attr name jhs.atr:fontProviderFetchStrategy
+     * @attr name com.detektor.smartscan:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -7382,37 +7382,37 @@ public final class R {
      * timeout and wait until a reply is received from the font provider.</td></tr>
      * </table>
      *
-     * @attr name jhs.atr:fontProviderFetchTimeout
+     * @attr name com.detektor.smartscan:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:fontProviderPackage
+     * @attr name com.detektor.smartscan:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:fontProviderQuery
+     * @attr name com.detektor.smartscan:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#fontProviderSystemFontFamily}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#fontProviderSystemFontFamily}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:fontProviderSystemFontFamily
+     * @attr name com.detektor.smartscan:fontProviderSystemFontFamily
      */
     public static final int FontFamily_fontProviderSystemFontFamily=6;
     /**
@@ -7427,11 +7427,11 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font jhs.atr:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle jhs.atr:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings jhs.atr:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight jhs.atr:fontWeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_ttcIndex jhs.atr:ttcIndex}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.detektor.smartscan:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.detektor.smartscan:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.detektor.smartscan:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.detektor.smartscan:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.detektor.smartscan:ttcIndex}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -7507,7 +7507,7 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontVariationSettings=4;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#font}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7515,11 +7515,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:font
+     * @attr name com.detektor.smartscan:font
      */
     public static final int FontFamilyFont_font=5;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7532,35 +7532,35 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jhs.atr:fontStyle
+     * @attr name com.detektor.smartscan:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#fontVariationSettings}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#fontVariationSettings}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:fontVariationSettings
+     * @attr name com.detektor.smartscan:fontVariationSettings
      */
     public static final int FontFamilyFont_fontVariationSettings=7;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jhs.atr:fontWeight
+     * @attr name com.detektor.smartscan:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=8;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#ttcIndex}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#ttcIndex}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name jhs.atr:ttcIndex
+     * @attr name com.detektor.smartscan:ttcIndex
      */
     public static final int FontFamilyFont_ttcIndex=9;
     /**
@@ -7885,10 +7885,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider jhs.atr:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding jhs.atr:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild jhs.atr:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers jhs.atr:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.detektor.smartscan:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.detektor.smartscan:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.detektor.smartscan:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.detektor.smartscan:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -7980,7 +7980,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7988,11 +7988,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:divider
+     * @attr name com.detektor.smartscan:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8001,21 +8001,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:dividerPadding
+     * @attr name com.detektor.smartscan:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:measureWithLargestChild
+     * @attr name com.detektor.smartscan:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8030,7 +8030,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jhs.atr:showDividers
+     * @attr name com.detektor.smartscan:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -8186,9 +8186,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #LoadingImageView_circleCrop jhs.atr:circleCrop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio jhs.atr:imageAspectRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust jhs.atr:imageAspectRatioAdjust}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_circleCrop com.detektor.smartscan:circleCrop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.detektor.smartscan:imageAspectRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.detektor.smartscan:imageAspectRatioAdjust}</code></td><td></td></tr>
      * </table>
      * @see #LoadingImageView_circleCrop
      * @see #LoadingImageView_imageAspectRatio
@@ -8198,26 +8198,26 @@ public final class R {
       0x7f03004d, 0x7f03009b, 0x7f03009c
     };
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#circleCrop}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#circleCrop}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:circleCrop
+     * @attr name com.detektor.smartscan:circleCrop
      */
     public static final int LoadingImageView_circleCrop=0;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#imageAspectRatio}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#imageAspectRatio}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name jhs.atr:imageAspectRatio
+     * @attr name com.detektor.smartscan:imageAspectRatio
      */
     public static final int LoadingImageView_imageAspectRatio=1;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#imageAspectRatioAdjust}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#imageAspectRatioAdjust}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8231,7 +8231,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name jhs.atr:imageAspectRatioAdjust
+     * @attr name com.detektor.smartscan:imageAspectRatioAdjust
      */
     public static final int LoadingImageView_imageAspectRatioAdjust=2;
     /**
@@ -8357,16 +8357,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout jhs.atr:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass jhs.atr:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass jhs.atr:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers jhs.atr:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription jhs.atr:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint jhs.atr:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode jhs.atr:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers jhs.atr:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction jhs.atr:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText jhs.atr:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.detektor.smartscan:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.detektor.smartscan:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.detektor.smartscan:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.detektor.smartscan:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.detektor.smartscan:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.detektor.smartscan:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.detektor.smartscan:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.detektor.smartscan:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.detektor.smartscan:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.detektor.smartscan:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -8543,7 +8543,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8551,31 +8551,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:actionLayout
+     * @attr name com.detektor.smartscan:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:actionProviderClass
+     * @attr name com.detektor.smartscan:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:actionViewClass
+     * @attr name com.detektor.smartscan:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8592,32 +8592,32 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name jhs.atr:alphabeticModifiers
+     * @attr name com.detektor.smartscan:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:contentDescription
+     * @attr name com.detektor.smartscan:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:iconTint
+     * @attr name com.detektor.smartscan:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8639,11 +8639,11 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name jhs.atr:iconTintMode
+     * @attr name com.detektor.smartscan:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8660,11 +8660,11 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name jhs.atr:numericModifiers
+     * @attr name com.detektor.smartscan:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8689,17 +8689,17 @@ public final class R {
      * label with it even if it has an icon representation.</td></tr>
      * </table>
      *
-     * @attr name jhs.atr:showAsAction
+     * @attr name com.detektor.smartscan:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:tooltipText
+     * @attr name com.detektor.smartscan:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -8716,8 +8716,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing jhs.atr:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow jhs.atr:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.detektor.smartscan:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.detektor.smartscan:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -8822,17 +8822,17 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:preserveIconSpacing
+     * @attr name com.detektor.smartscan:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8840,7 +8840,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:subMenuArrow
+     * @attr name com.detektor.smartscan:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -8852,7 +8852,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor jhs.atr:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.detektor.smartscan:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -8889,13 +8889,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:overlapAnchor
+     * @attr name com.detektor.smartscan:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -8905,7 +8905,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor jhs.atr:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.detektor.smartscan:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -8913,13 +8913,13 @@ public final class R {
       0x7f0300e7
     };
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:state_above_anchor
+     * @attr name com.detektor.smartscan:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -8929,8 +8929,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons jhs.atr:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle jhs.atr:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.detektor.smartscan:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.detektor.smartscan:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -8939,7 +8939,7 @@ public final class R {
       0x7f0300c1, 0x7f0300c4
     };
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8948,11 +8948,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:paddingBottomNoButtons
+     * @attr name com.detektor.smartscan:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8961,7 +8961,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:paddingTopNoTitle
+     * @attr name com.detektor.smartscan:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -8975,19 +8975,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon jhs.atr:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon jhs.atr:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint jhs.atr:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon jhs.atr:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault jhs.atr:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout jhs.atr:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground jhs.atr:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint jhs.atr:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon jhs.atr:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon jhs.atr:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground jhs.atr:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout jhs.atr:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon jhs.atr:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.detektor.smartscan:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.detektor.smartscan:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.detektor.smartscan:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.detektor.smartscan:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.detektor.smartscan:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.detektor.smartscan:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.detektor.smartscan:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.detektor.smartscan:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.detektor.smartscan:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.detektor.smartscan:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.detektor.smartscan:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.detektor.smartscan:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.detektor.smartscan:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -9126,7 +9126,7 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9134,11 +9134,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:closeIcon
+     * @attr name com.detektor.smartscan:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9146,21 +9146,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:commitIcon
+     * @attr name com.detektor.smartscan:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:defaultQueryHint
+     * @attr name com.detektor.smartscan:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9168,21 +9168,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:goIcon
+     * @attr name com.detektor.smartscan:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:iconifiedByDefault
+     * @attr name com.detektor.smartscan:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9190,11 +9190,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:layout
+     * @attr name com.detektor.smartscan:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9202,21 +9202,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:queryBackground
+     * @attr name com.detektor.smartscan:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:queryHint
+     * @attr name com.detektor.smartscan:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9224,11 +9224,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:searchHintIcon
+     * @attr name com.detektor.smartscan:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9236,11 +9236,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:searchIcon
+     * @attr name com.detektor.smartscan:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9248,11 +9248,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:submitBackground
+     * @attr name com.detektor.smartscan:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9260,11 +9260,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:suggestionRowLayout
+     * @attr name com.detektor.smartscan:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9272,7 +9272,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:voiceIcon
+     * @attr name com.detektor.smartscan:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -9282,9 +9282,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SignInButton_buttonSize jhs.atr:buttonSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignInButton_colorScheme jhs.atr:colorScheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignInButton_scopeUris jhs.atr:scopeUris}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_buttonSize com.detektor.smartscan:buttonSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_colorScheme com.detektor.smartscan:colorScheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_scopeUris com.detektor.smartscan:scopeUris}</code></td><td></td></tr>
      * </table>
      * @see #SignInButton_buttonSize
      * @see #SignInButton_colorScheme
@@ -9294,7 +9294,7 @@ public final class R {
       0x7f030043, 0x7f03005c, 0x7f0300d5
     };
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#buttonSize}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#buttonSize}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9312,11 +9312,11 @@ public final class R {
      * <tr><td>wide</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jhs.atr:buttonSize
+     * @attr name com.detektor.smartscan:buttonSize
      */
     public static final int SignInButton_buttonSize=0;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#colorScheme}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#colorScheme}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9334,11 +9334,11 @@ public final class R {
      * <tr><td>light</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name jhs.atr:colorScheme
+     * @attr name com.detektor.smartscan:colorScheme
      */
     public static final int SignInButton_colorScheme=1;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#scopeUris}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#scopeUris}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9348,7 +9348,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:scopeUris
+     * @attr name com.detektor.smartscan:scopeUris
      */
     public static final int SignInButton_scopeUris=2;
     /**
@@ -9362,7 +9362,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme jhs.atr:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.detektor.smartscan:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -9437,7 +9437,7 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9445,7 +9445,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:popupTheme
+     * @attr name com.detektor.smartscan:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -9567,17 +9567,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText jhs.atr:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack jhs.atr:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth jhs.atr:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding jhs.atr:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance jhs.atr:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding jhs.atr:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint jhs.atr:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode jhs.atr:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track jhs.atr:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint jhs.atr:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode jhs.atr:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.detektor.smartscan:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.detektor.smartscan:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.detektor.smartscan:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.detektor.smartscan:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.detektor.smartscan:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.detektor.smartscan:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.detektor.smartscan:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.detektor.smartscan:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.detektor.smartscan:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.detektor.smartscan:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.detektor.smartscan:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -9633,27 +9633,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:showText
+     * @attr name com.detektor.smartscan:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:splitTrack
+     * @attr name com.detektor.smartscan:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9662,11 +9662,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:switchMinWidth
+     * @attr name com.detektor.smartscan:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9675,11 +9675,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:switchPadding
+     * @attr name com.detektor.smartscan:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9687,11 +9687,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:switchTextAppearance
+     * @attr name com.detektor.smartscan:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9700,22 +9700,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:thumbTextPadding
+     * @attr name com.detektor.smartscan:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:thumbTint
+     * @attr name com.detektor.smartscan:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9737,11 +9737,11 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name jhs.atr:thumbTintMode
+     * @attr name com.detektor.smartscan:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9749,22 +9749,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:track
+     * @attr name com.detektor.smartscan:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:trackTint
+     * @attr name com.detektor.smartscan:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9786,7 +9786,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name jhs.atr:trackTintMode
+     * @attr name com.detektor.smartscan:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -9808,10 +9808,10 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_textFontWeight android:textFontWeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily jhs.atr:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontVariationSettings jhs.atr:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps jhs.atr:textAllCaps}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textLocale jhs.atr:textLocale}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.detektor.smartscan:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontVariationSettings com.detektor.smartscan:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.detektor.smartscan:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textLocale com.detektor.smartscan:textLocale}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -9989,27 +9989,27 @@ public final class R {
      */
     public static final int TextAppearance_android_textFontWeight=11;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:fontFamily
+     * @attr name com.detektor.smartscan:fontFamily
      */
     public static final int TextAppearance_fontFamily=12;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#fontVariationSettings}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#fontVariationSettings}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:fontVariationSettings
+     * @attr name com.detektor.smartscan:fontVariationSettings
      */
     public static final int TextAppearance_fontVariationSettings=13;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10019,17 +10019,17 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name jhs.atr:textAllCaps
+     * @attr name com.detektor.smartscan:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=14;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#textLocale}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#textLocale}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:textLocale
+     * @attr name com.detektor.smartscan:textLocale
      */
     public static final int TextAppearance_textLocale=15;
     /**
@@ -10041,34 +10041,34 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity jhs.atr:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription jhs.atr:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon jhs.atr:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd jhs.atr:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions jhs.atr:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft jhs.atr:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight jhs.atr:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart jhs.atr:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation jhs.atr:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo jhs.atr:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription jhs.atr:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight jhs.atr:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_menu jhs.atr:menu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription jhs.atr:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon jhs.atr:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme jhs.atr:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle jhs.atr:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance jhs.atr:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor jhs.atr:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title jhs.atr:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin jhs.atr:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom jhs.atr:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd jhs.atr:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart jhs.atr:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop jhs.atr:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins jhs.atr:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance jhs.atr:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor jhs.atr:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.detektor.smartscan:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.detektor.smartscan:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.detektor.smartscan:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.detektor.smartscan:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.detektor.smartscan:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.detektor.smartscan:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.detektor.smartscan:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.detektor.smartscan:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.detektor.smartscan:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.detektor.smartscan:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.detektor.smartscan:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.detektor.smartscan:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_menu com.detektor.smartscan:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.detektor.smartscan:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.detektor.smartscan:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.detektor.smartscan:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.detektor.smartscan:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.detektor.smartscan:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.detektor.smartscan:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.detektor.smartscan:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.detektor.smartscan:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.detektor.smartscan:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.detektor.smartscan:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.detektor.smartscan:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.detektor.smartscan:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.detektor.smartscan:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.detektor.smartscan:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.detektor.smartscan:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -10154,7 +10154,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10168,21 +10168,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
      * </table>
      *
-     * @attr name jhs.atr:buttonGravity
+     * @attr name com.detektor.smartscan:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:collapseContentDescription
+     * @attr name com.detektor.smartscan:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10190,11 +10190,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:collapseIcon
+     * @attr name com.detektor.smartscan:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10203,11 +10203,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:contentInsetEnd
+     * @attr name com.detektor.smartscan:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10216,11 +10216,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:contentInsetEndWithActions
+     * @attr name com.detektor.smartscan:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10229,11 +10229,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:contentInsetLeft
+     * @attr name com.detektor.smartscan:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10242,11 +10242,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:contentInsetRight
+     * @attr name com.detektor.smartscan:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10255,11 +10255,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:contentInsetStart
+     * @attr name com.detektor.smartscan:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10268,11 +10268,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:contentInsetStartWithNavigation
+     * @attr name com.detektor.smartscan:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10280,21 +10280,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:logo
+     * @attr name com.detektor.smartscan:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:logoDescription
+     * @attr name com.detektor.smartscan:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10303,11 +10303,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:maxButtonHeight
+     * @attr name com.detektor.smartscan:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#menu}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#menu}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10315,21 +10315,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:menu
+     * @attr name com.detektor.smartscan:menu
      */
     public static final int Toolbar_menu=14;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:navigationContentDescription
+     * @attr name com.detektor.smartscan:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=15;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10337,11 +10337,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:navigationIcon
+     * @attr name com.detektor.smartscan:navigationIcon
      */
     public static final int Toolbar_navigationIcon=16;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10349,21 +10349,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:popupTheme
+     * @attr name com.detektor.smartscan:popupTheme
      */
     public static final int Toolbar_popupTheme=17;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:subtitle
+     * @attr name com.detektor.smartscan:subtitle
      */
     public static final int Toolbar_subtitle=18;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10371,32 +10371,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:subtitleTextAppearance
+     * @attr name com.detektor.smartscan:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=19;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:subtitleTextColor
+     * @attr name com.detektor.smartscan:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=20;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name jhs.atr:title
+     * @attr name com.detektor.smartscan:title
      */
     public static final int Toolbar_title=21;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10405,11 +10405,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:titleMargin
+     * @attr name com.detektor.smartscan:titleMargin
      */
     public static final int Toolbar_titleMargin=22;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10418,11 +10418,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:titleMarginBottom
+     * @attr name com.detektor.smartscan:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=23;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10431,11 +10431,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:titleMarginEnd
+     * @attr name com.detektor.smartscan:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=24;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10444,11 +10444,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:titleMarginStart
+     * @attr name com.detektor.smartscan:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=25;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10457,11 +10457,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:titleMarginTop
+     * @attr name com.detektor.smartscan:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=26;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10470,11 +10470,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:titleMargins
+     * @attr name com.detektor.smartscan:titleMargins
      */
     public static final int Toolbar_titleMargins=27;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10482,18 +10482,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:titleTextAppearance
+     * @attr name com.detektor.smartscan:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=28;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:titleTextColor
+     * @attr name com.detektor.smartscan:titleTextColor
      */
     public static final int Toolbar_titleTextColor=29;
     /**
@@ -10505,9 +10505,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd jhs.atr:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart jhs.atr:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme jhs.atr:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.detektor.smartscan:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.detektor.smartscan:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.detektor.smartscan:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -10550,7 +10550,7 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10559,11 +10559,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:paddingEnd
+     * @attr name com.detektor.smartscan:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10572,11 +10572,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name jhs.atr:paddingStart
+     * @attr name com.detektor.smartscan:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10584,7 +10584,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name jhs.atr:theme
+     * @attr name com.detektor.smartscan:theme
      */
     public static final int View_theme=4;
     /**
@@ -10595,8 +10595,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint jhs.atr:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode jhs.atr:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.detektor.smartscan:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.detektor.smartscan:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -10621,18 +10621,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name jhs.atr:backgroundTint
+     * @attr name com.detektor.smartscan:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link jhs.atr.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.detektor.smartscan.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10654,7 +10654,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name jhs.atr:backgroundTintMode
+     * @attr name com.detektor.smartscan:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**

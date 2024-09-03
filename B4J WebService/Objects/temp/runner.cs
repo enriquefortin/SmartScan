@@ -14,7 +14,7 @@ namespace B4JRunner
             Process p = new Process();
             p.StartInfo.FileName = "bin\\result.exe";
             p.StartInfo.WorkingDirectory = Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, "bin");
-            p.StartInfo.Arguments = "@release_java_modules.txt  -m b4j/b4j.example.main";
+            p.StartInfo.Arguments = "@release_java_modules.txt  -m b4j/b4j.smartscan.main";
 			p.StartInfo.UseShellExecute = false;
 			foreach (string a in args)
 				p.StartInfo.Arguments += " " + "\"" + Regex.Replace(a, @"(\\+)$", @"$1$1") + "\"";

@@ -4,20 +4,32 @@ File1=factura.jpg
 FileGroup1=Default Group
 Group=Default Group
 Library1=apachestringutilsb4j
+Library10=jsql
+Library11=muixm
+Library12=unboundid4b4j
 Library2=javaobject
 Library3=jcore
-Library4=jfileuploadsupport
+Library4=jfileuploadsupportmaxsize
 Library5=jokhttputils2
 Library6=jrandomaccessfile
 Library7=jserver
-Library8=json
-Library9=jshell
-Module1=AgregarFactura
-Module2=B4A
-Module3=hUploadServer
+Library8=jshell
+Library9=json
+Module1=B4A
+Module10=PA
+Module11=SessionCreator
+Module12=SV
+Module2=CO
+Module3=CR
+Module4=GT
+Module5=HN
+Module6=hUploadServer
+Module7=Index
+Module8=LogInRegistro
+Module9=NI
 NumberOfFiles=1
-NumberOfLibraries=9
-NumberOfModules=3
+NumberOfLibraries=12
+NumberOfModules=12
 Version=10
 @EndOfDesignText@
 #Region Project Attributes 
@@ -28,6 +40,38 @@ Version=10
 #AdditionalJar: commons-fileupload2-core-2.0.0-M1
 #AdditionalJar: commons-fileupload2-jakarta-2.0.0-M1
 #AdditionalJar: commons-io-2.13.0
+#AdditionalJar: sqlite-jdbc-3.7.2
+#AdditionalJar: unboundid-ldapsdk.jar
+#AdditionalJar: mysql-connector-j-9.0.0.jar
+#AdditionalJar: commons-codec-1.3.jar
+#AdditionalJar: commons-compress-1.21.jar
+#AdditionalJar: commons-io-2.11.0.jar
+#AdditionalJar: commons-logging-1.1.1.jar
+#AdditionalJar: firebase-admin-9.2.0.jar
+#AdditionalJar: google-api-client-1.21.0.jar
+#AdditionalJar: google-http-client-1.19.0.jar
+#AdditionalJar: google-http-client-gson-1.21.0.jar
+#AdditionalJar: google-http-client-jackson2-1.19.0.jar
+#AdditionalJar: gson-2.6.2.jar
+#AdditionalJar: guava-jdk5-17.0.jar
+#AdditionalJar: httpclient-4.0.1.jar
+#AdditionalJar: httpcore-4.0.1.jar
+#AdditionalJar: google-oauth-client-1.21.0.jar
+#AdditionalJar: jackson-core-2.1.3.jar
+#AdditionalJar: javax.inject-1.jar
+#AdditionalJar: json-20160212.jar
+#AdditionalJar: jsr305-1.3.9.jar
+#AdditionalJar: xz-1.9.jar
+#AdditionalJar: snappy-0.4.jar
+#AdditionalJar: slf4j-api-1.7.36.jar
+#AdditionalJar: sisu-inject-plexus-1.4.2.jar
+#AdditionalJar: sisu-inject-bean-1.4.2.jar
+#AdditionalJar: api-common-2.12.0.jar
+#AdditionalJar: google-auth-library-oauth2-http-1.19.0
+#AdditionalJar: google-auth-library-credentials-1.19.0.jar
+#AdditionalJar: guava-23.2-jre
+	
+
 
 Sub Process_Globals
 	Private srvr As Server
@@ -36,25 +80,50 @@ Sub Process_Globals
 	Public NombreArchivo As String
 	Public porcentaje As String=""
 	Public subido As Boolean =False
+	Public sessionid As Map
+	Dim sql1 As SQL
+	Public firetoken As jFirebaseAuthWrapper
+	Public pool As ConnectionPool
 End Sub
 
 
 
 Sub AppStart (Args() As String)
+	pool.Initialize("com.mysql.cj.jdbc.Driver","jdbc:mysql://10.125.15.164/SMARTSCAN?characterEncoding=utf8","ocrapp","$datosocr!")
+	sessionid.Initialize
 	srvr.Initialize("srvr")
-	srvr.Port = 55555
-	srvr.StaticFilesFolder = File.Combine(File.DirApp, "www")
-		
-	srvr.AddWebSocket("/AgregarFactura", "AgregarFactura")
-	srvr.AddWebSocket("/ws", "B4A")
+	srvr.Port = 80
+	srvr.StaticFilesFolder = File.Combine(File.DirApp, "www")		
+	srvr.AddWebSocket("/HN", "HN")
+	srvr.AddWebSocket("/CR", "CR")
+	srvr.AddWebSocket("/NI", "NI")
+	srvr.AddWebSocket("/SV", "SV")
+	srvr.AddWebSocket("/PA", "PA")
+	srvr.AddWebSocket("/CO", "CO")
+	srvr.AddWebSocket("/GT", "GT")
+	srvr.AddWebSocket("/index", "Index")
 	srvr.AddHandler("/upload/v2/*", "hUploadServer", False)
+	srvr.AddWebSocket("/LoginRegister", "LogInRegistro")
+	srvr.AddFilter("/*", "SessionCreator", False)
 	srvr.Start
+	Dim auth As String = File.Combine(File.DirApp,"kateen-le-app-firebase-adminsdk-dnsu1-ac68a2e2c7.json")
+	firetoken.Initialize("firebaseauth", auth)
 	StartMessageLoop
 	'open browser and navigate to: http://127.0.0.1:51042/
 	msj.Initialize
 	
-	
 
 End Sub
 
+public Sub ValidarUsuario(ws As WebSocket, lblusernamemain As JQueryElement)
+	Try
+		If ws.Session.GetAttribute("UserId") = Null Or 0 = ws.Session.GetAttribute("UserId") Then
+			ws.Eval("document.location.replace('auth-login-basic.html')",Null)
+		Else
+			lblusernamemain.SetHtml(ws.Session.GetAttribute("UserName"))
+		End If
+	Catch
+		Log(LastException)
+	End Try
+End Sub
 

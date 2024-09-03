@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Anywhere Software/Basic4android/Libraries/B4AShared.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Anywhere Software/B4J/Libraries/jCore.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/CrystalCommon2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/CrystalReportsRuntime.jar" sourcepath="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/CrystalReportsRuntime.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/DatabaseConnectors.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/com.azalea.ufl.barcode.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/commons-configuration-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/commons-lang-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/cvom.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/icu4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/jai_imageio.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/JDBInterface.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/jrcerom.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/keycodeDecoder.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/logging.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/pfjgraphics.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/QueryBuilder.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/webreporting.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/webreporting-jsf.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/XMLConnector.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Downloads/Reports MySQL/crjava-runtime_12.2.220/lib/xpp3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Documents/Anywhere Software/B4J/AddLibs/jtds-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Documents/Anywhere Software/B4J/AddLibs/mssql-jdbc-7.0.0.jre8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Documents/Anywhere Software/B4J/AddLibs/mysql-connector-java-5.1.40-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Documents/Anywhere Software/B4J/AddLibs/ojdbc7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bike Stop/Documents/Anywhere Software/B4J/AddLibs/sqlite-jdbc-3.23.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

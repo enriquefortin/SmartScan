@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	package="jhs.atr"
-	android:versionCode="1"
+	package="com.detektor.smartscan"
+	android:versionCode="2"
 	android:versionName=""
 	android:installLocation="internalOnly">
 	
-	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="33"/>
+	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="34"/>
 	<supports-screens android:largeScreens="true" 
 	    android:normalScreens="true" 
 	    android:smallScreens="true" 
@@ -19,7 +19,7 @@
 	<uses-permission android:name="android.hardware.camera"/>
 	<application
 		android:icon="@drawable/icon"
-		android:label="Detektor SmartScan"
+		android:label="SmartScan"
 		android:theme="@style/LightTheme">
 		
 		<meta-data
@@ -32,7 +32,7 @@
 			android:windowSoftInputMode="stateHidden"
 			android:launchMode="singleTop"
 			android:name=".main"
-			android:label="Detektor SmartScan"
+			android:label="SmartScan"
 			android:screenOrientation="unspecified"
 			android:exported="true">
 			<intent-filter>
